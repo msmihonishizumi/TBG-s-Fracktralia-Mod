@@ -13,19 +13,19 @@ Welcome to Fracktracia Mod! This is an mod based on my original RPG setting heav
 **Art and Writing Direction:** 
 The Brazillian Guy TM
 
-**Special Thanks:**
-Theo/Ruler
-Reitsuka
-Luispoker
-Duncan
-Alucardhell
-Corvo
+### **Special Thanks:**
+* Theo/Ruler
+* Reitsuka
+* Luispoker
+* Duncan
+* Alucardhell
+* Corvo
 
-The Unciv Community,
-And you!
+### The Unciv Community.
+#### And you!
 
 ###### 		This Mod is dedicated to my father, Ivan H. Moura - he passed away during the production of this mod at 3:00, September 7, at the age of 50 after complications from an heart attack coupled with pneumonia.
-######		Yet, he went in peace and happy despite what most would describe as a horrible death, he was smiling before we saw him for the last time.
+######		Yet, he went in peace and happy despite what most would describe as a horrible death. He was smiling before we saw him for the last time.
 
 ######		From the dust we came, and to the dust will return
 ###### 		Praised be the Lord.
