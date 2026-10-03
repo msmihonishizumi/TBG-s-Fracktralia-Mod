@@ -11,7 +11,7 @@ Welcome to Fracktracia Mod! This is an mod based on my original RPG setting heav
 
 ### Credits:
 **Art and Writing Direction:** 
-The Brazillian Guy TM
+- The Brazillian Guy TM
 
 ### **Special Thanks:**
 * Theo/Ruler
