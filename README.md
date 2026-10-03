@@ -1,6 +1,8 @@
 # TBG's Fracktracia Mod
 Welcome to Fracktracia Mod! This is an mod based on my original RPG setting heavily inspired by Fire Emblem, all the civilizations in the base game have been replaced by the countries of this world!
 
+<img width="931" height="453" alt="image" src="https://cdn.discordapp.com/attachments/1533890770178932768/1556035598836310026/image.png?backend=b2&ex=6ac2b294&is=6ac16114&hm=455766fbb2083db8d98a1925c953e3ad42a59f0c535a346ffa03623beeb1de93" />
+
 ## What's new:
 * 20 Civilizations (Well, 21 if you count John Doe) with 4 components each and 50 City-states, 10 of each type.
 * Rebalanced policy tree. (There's an actual reason to go Piety now!)
