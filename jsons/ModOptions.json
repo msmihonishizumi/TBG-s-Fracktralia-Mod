@@ -1,0 +1,33 @@
+{
+	"isBaseRuleset" : true,
+	"tileset" : "FantasyHex",
+	"unitset" : "FantasyHex",
+	"constants" : 
+	{
+		"maxXPfromBarbarians": 30,
+		// City Strenght Options
+		"cityStrengthBase":                      8,
+		"cityStrengthPerPop":                  0.4,
+		"cityStrengthFromTechsMultiplier":     5.5,
+		"cityStrengthFromTechsExponent":       2.8,
+		"cityStrengthFromTechsFullMultiplier":   1,
+		"cityStrengthFromGarrison":            0.2,
+		// City Miscelanious
+		"baseCityBombardRange": 2,
+		"cityWorkRange":        3,
+		"cityExpandRange":      5,
+		"cityAirUnitCapacity":  6,
+		// Unit Supply
+		"unitSupplyPerPopulation": 0.5,
+		// Spy Options
+		"maxSpyRank": 3,
+		// Ruin count
+		"ancientRuinCountMultiplier": 0.05,
+
+		// Religion Options
+		"religionLimitBase":        0,
+		"religionLimitMultiplier":  1,
+		"pantheonBase":            10,
+		"pantheonGrowth":           0		
+	}	
+}

@@ -1,0 +1,2302 @@
+[
+	//Spectator
+    //Not "Excluded from map editor" as it serves as placeholder for "Any Civ" starting locations
+	{
+		"name": "Spectator",
+		"outerColor": [ 255, 255, 255 ]
+//		"innerColor": [ 255, 255, 255 ]
+	},
+
+	// Major Civilizations
+
+	{
+		"name" : "Aiba Cult",
+		"leaderName" : "Bishop Seebs",
+		"adjective": [ "Aiban" ],
+		"startBias": 
+			[
+				"Coast",
+				"Avoid [Mountain]",
+				"Avoid [Jungle]"
+			],
+		"personality":           "Bishop Seebs",
+		"preferredVictoryType" : "Religious",
+
+        "startIntroPart1" :       "May the gods comfort your heart, Bishop Seebs! The Aiban mourn the loss of their Patron for over a millenium, yet she lives in legend throughout the entirety of Fracktalia, with the cult keeping her memory alive in the form of eternal grief. Your heart was moved by her story when you were still little, Bishop Seebs, and once you were declared the next Eminence, you helped the word spread and reach far across the globe, to the point where many of the cultists conglomerate in their own settlements, where their sorrow remains sacred.",
+
+        "startIntroPart2" :       "What will it be, Your Eminence? Will you teach the ways of Aiba by peace? Or perhaps even by force? Will the world learn to grieve Lady Aiba? Will your empire shine through the ages of history?",
+
+        "declaringWar" :          "Ha! Now its our chance!",
+
+        "attacked" :              "Our sorrow is sacred, yours on the other hand, is inflicted upon others.",
+        "defeated" :              "N-no! H-how did you find out...?",
+        
+        "denounced" :             "...What?",
+        "neutralDenouncing" :     "You are the reason the world is the way it is, a scum to the end.",
+        "hateDenouncing" :        "You are the reason the world is the way it is, a scum to the end.",
+        
+        "neutralRejectingDemand": "Perhaps you could mind your own affairs.",
+        "hateRejectingDemand":    "There's only one we obey, you should know that.",
+
+        "neutralHello":           "Welcome.",
+        "hateHello":              "...",
+    
+        "declaringFriendship":    "You understand our pain more than the others, perhaps we could call you 'friend'?",
+
+        "introduction" :          "We're followers of Lady Aiba, leave us be to our sorrow...",
+        "tradeRequest" :          "This will be of more use to you than us.",
+
+		"outerColor" : [ 131,  28,  93 ],
+		"innerColor" : [  51,   1,  33 ],
+
+		"uniqueName" : "Sorrow of Lady Aiba",
+		"uniques" : [
+            "[-10]% Yield from every [Terrain] <when above [0] [Happiness]>",
+            "[+30]% Yield from every [Terrain] <when below [0] [Happiness]>",
+			"Unable to build new [Settler] units with [Production], but [Settler] units can still be purchased with [Gold] <Suppress warning [*not found in Unciv's unique types, and is not used as a filtering unique*]>",
+			"[Gold] cost of purchasing [Settler] units [-67]%",
+			"\"Borrows\" city names from other civilizations in the game <hidden from users>"
+		],
+
+		"cities" : [ 
+					"Dhulka Aiba"
+				]
+	},	
+
+	{
+		"name" : "Belatoria",
+		"leaderName" : "Brutus Celes",
+		"adjective": [ "Belatorian" ],
+		"startBias": 
+			[
+				"Plains"
+			],
+		"personality":           "Brutus Celes",
+		"preferredVictoryType" : "Cultural",
+
+        "startIntroPart1" :       "All hail the Gladiator Emperor, Brutus Silva Celes! From north to south, Belatoria has been the nation of the athletes for centuries on end, with its arenas, stadiums, and coliseums that made the world be in awe of such feats of engineering. From chariot racing, to javelin throw, or some bloodsports, the belatorians are proud athletes and constructors that bring joy and shine from the capital Aumelatio.",
+
+        "startIntroPart2" :       "Great Brutus Celes, the world needs to see the belatorian spark for themselves, will you grace the four winds with the great games once more? Will you impress the world once more? Will your empire shine through the ages of history?",
+
+        "declaringWar" :          "You have shown some behaviour atypical of a Belatoria's friend, we shall correct your course by force.",
+
+        "attacked" :              "We are warriors as much as we are gladiators, you will soon learn we are no show-off!",
+        "defeated" :              "And that's all the gods wrote for Belatoria and her people, how pitiful...",
+        
+        "denounced" :             "It's no fault of our own that your athletes can't go very far in our games, you know?",
+        "neutralDenouncing" :     "Scoundrels, all of you! You are no better than barbarians and conquerors, no better!",
+        "hateDenouncing" :        "Scoundrels, all of you! You are no better than barbarians and conquerors, no better!",
+        
+        "neutralRejectingDemand": "I don't remember Aumelatio sending letters asking for your input on the matter.",
+        "hateRejectingDemand":    "We heard enough nonsense from you, our answer will always be no.",
+
+        "neutralHello":           "Salve!",
+        "hateHello":              "Oh, you.",
+    
+        "declaringFriendship":    "You have shown yourself to be a friend of Belatoria, please, kindly allow Aumelatio to proclaim this truth to the whole world, yes?",
+
+        "introduction" :          "Welcome my friend to the land of gladiators, I am yours truly, Brutus Silva Celes!",
+        "tradeRequest" :          "Surely we can make something off of this exchange.",
+
+		"outerColor" : [ 237, 128, 153 ],
+		"innerColor" : [ 255, 224, 139 ],
+
+		"uniqueName" : "Games and Gladiators",
+		"uniques" : [
+            "Earn [200]% of killed [Military] unit's [Strength] as [Golden Age points]",
+			"[+1 Food, +1 Gold, +1 Culture] from every [Colosseum] <for every [Era number]>"
+		],
+
+		"cities" : [ 
+					"Aumelatio", "Corium", "Mospungari", "Tabeparva", "Arenas", 
+					"Colossia", "Victoria", "Ludus", "Valerium", "Bellator", 
+					"Terraco", "Ferentinum", "Castrum", "Aquileia", "Subura", 
+					"Palatium", "Tibur", "Verona", "Spoletium", "Ostia", 
+					"Beneventum", "Arretium", "Tarentum", "Capua", "Cremona", 
+					"Brixia", "Mutina", "Ravenna", "Placentia", "Hispalis"
+				]
+	},	
+
+	{
+		"name" : "Blauwspiel",
+		"leaderName" : "Lord Annei",
+		"adjective": [ "Blauwspieller" ],
+		"startBias": 
+			[
+				"Coast"
+			],
+		"personality":           "Lord Annei",
+		"preferredVictoryType" : "Diplomatic",
+
+        "startIntroPart1" :       "Greetings, traveler. You stand before the legendary trade hubs of the Blauwspiel Union.",
+
+        "startIntroPart2" :       "Will your vast wealth buy the loyalty of the world and secure a diplomatic empire, Lord Annei?",
+
+        "declaringWar" :          "Haha, nothing personal, kid, but our allies and patrons require us to do this.",
+
+        "attacked" :              "You'd rather talk to our mercenaries than our merchants? Well, you do you.",
+        "defeated" :              "You did it, you sick son of a gun! But you'll never be able to exploit our treasure to its maximum, not like us!",
+        
+        "denounced" :             "Oh c'mon buddy ol' pal, surely you don't want higher prices, do you?",
+        "neutralDenouncing" :     "Ah boo, you are no fun, you know that?",
+        "hateDenouncing" :        "I've seen barbarians and viking be less rude than you - and that is saying something.",
+        
+        "neutralRejectingDemand": "If you ain't payin', we ain't listening, pal.",
+        "hateRejectingDemand":    "If you ain't payin', we ain't listening, pal.",
+
+        "neutralHello":           "Look who's here!",
+        "hateHello":              "Well hello.",
+    
+        "declaringFriendship":    "You know, you have been our best costumer in ages! We're pratically best friends even, we should celebrate by telling everyone.",
+
+        "introduction" :          "Welcome to the Merchant Union of the Blauwspiel States! I can already see many friendships and trades happening between our people.",
+        "tradeRequest" :          "Come buy somethin'!",
+
+		"outerColor" : [  55,  78,  74 ],
+		"innerColor" : [ 255, 185,  84 ],
+
+		"uniqueName" : "Merchant Union",
+		"uniques" : [
+			"[-50]% City Strength from defensive buildings",
+			"[Gold] cost of purchasing [All] buildings [-25]%",
+			"[Gold] cost of purchasing [Military] units [-25]%"
+		],
+
+		"cities" : [ 
+					"Gelahtehad", "Handelskade", "Zeehaven", "Guldenstad", "Middenkapel", 
+					"Rijksvliet", "Koopmansoord", "Zilverdam", "Vlissingen", "Gouda", 
+					"Edam", "Dordrecht", "Hoorn", "Enkhuizen", "Middelburg", 
+					"Veere", "Stavoren", "Harlingen", "Kampen", "Deventer", 
+					"Zwolle", "Zutphen", "Brouwershaven", "Delft", "Schiedam", 
+					"Maassluis", "Gorinchem", "Brielle", "Woerden", "Harderwijk"
+				]
+	},	
+
+	{
+		"name" : "Bornthride",
+		"leaderName" : "Sir Percival",
+		"adjective": [ "Bornthrider" ],
+		"startBias": 
+			[
+				
+			],
+		"personality":           "Sir Percival",
+		"preferredVictoryType" : "Diplomatic",
+
+        "startIntroPart1" :       "Behold Bornthride, the noble sanctuary of chivalrous knights and swift steeds.",
+        "startIntroPart2" :       "Will your righteous banners lead the world into an era of honor and harmony, Sir Percival?",
+
+        "declaringWar" :          "Your acts of tyranny and villany shall be answered for. Be prepared, for we arrive with justice!",
+
+        "attacked" :              "For you are our foe, and we were born to ride! The mud and hooves will gladly welcome the faces of your men.",
+        "defeated" :              "A world unjust we leave behind, for people like yours prosper.",
+        
+        "denounced" :             "Oh? Please, virtuous leader, pray tell - share with us your wisdom of honor and vigor... Ha!",
+        "neutralDenouncing" :     "Your concept of 'honor' and 'diplomacy' leaves something to be desired.",
+        "hateDenouncing" :        "Honorless scum, barbaric ruler! You will be the ruin of your own people, of the whole world!",
+        
+        "neutralRejectingDemand": "A rude ask cannot be answered - let alone one without reason.",
+        "hateRejectingDemand":    "Bark all you want, villain, our knees only bend in face of God and when mounted in our companions.",
+
+        "neutralHello":           "Greetings!",
+        "hateHello":              "You...",
+    
+        "declaringFriendship":    "Someone we can call friend is hard to come by, so I kindly ask if our people can consider yours that.",
+
+        "introduction" :          "Good morning, stranger from afar. I am Sir Percival of Alfonir, current Cavalry Master and head of the Bornthrider people.",
+        "tradeRequest" :          "Would you say this is a fair exchange?",
+
+		"outerColor" : [ 247, 150,  23 ],
+		"innerColor" : [ 255, 255, 255 ],
+
+		"uniqueName" : "Domain of the Knights",
+		"uniques" : [
+			"Unable to pillage tiles",
+			"Great General provides double combat bonus",
+			"[+1 Culture] from [Horses] tiles [in all cities]",
+			"[+1]% Production when constructing [Sword] units [in all cities] <for every [100 / ([[Sword] Units] + 1)]>",
+			"[+1]% Production when constructing [Mounted] units [in all cities] <for every [100 / ([[Mounted] Units] + 1)]>",
+			"[+1]% Production when constructing [Archery] units [in all cities] <for every [100 / ([[Archery] Units] + 1)]>"
+		],
+
+		"cities" : [ 
+					"Bornthride", "Woodsmanner", "Backlemore", "Midila", "Alfonir", 
+					"Bridleford", "Highgallop", "Ironhoof", "Whiteknights", "Oakhaven", 
+					"Silverspur", "Sterling", "Falconcrest", "Meadowlark", "Kingsford", 
+					"Windrush", "Greenwarden", "Ashford", "Runnymede", "Riverbend", 
+					"Thornbury", "Summerfield", "Braeburn", "Hartland", "Knightswell", 
+					"Westerly", "Bridgewater", "Ravenscroft", "Goldengrove", "Redstallion"
+				]
+	},	
+
+	{
+		"name" : "Celeste",
+		"leaderName" : "Carmilla da L'Ouest",
+		"adjective": [ "Celestian" ],
+		"startBias": 
+			[
+				"Mountain",
+				"Hill"
+			],
+		"personality":           "Carmilla da L'Ouest",
+		"preferredVictoryType" : "Cultural",
+
+        "startIntroPart1" :       "Step into Celeste, a grand mountain kingdom shielded by the renowned Green Coats.",
+        "startIntroPart2" :       "Will your elegance, culture, and formidable fleet inspire admiration across the lands, Princess Carmilla?",
+
+        "declaringWar" :          "You have annoyed me enough, out with you!",
+
+        "attacked" :              "Perhaps I didn't make myself clear when I said I am THE Princess Carmilla da L'Ouest - I will not let you easily stomp on the Celestian people",
+        "defeated" :              "So my kingdom and I finally have met our match... I'm sorry, father...",
+        
+        "denounced" :             "Bold choice of words, I pray you weren't just projecting onto us.",
+        "neutralDenouncing" :     "I've seen scoundrels have more dignity than WHATEVER you have.",
+        "hateDenouncing" :        "Oh you! I cannot fathom how your own people stands you - the world needs to get rid of you, and soon.",
+        
+        "neutralRejectingDemand": "And this is EXACTLY the reason we don't consult you! Rude...",
+        "hateRejectingDemand":    "Spare us the waste of time! You are not worth the bother.",
+
+        "neutralHello":           "Well, Good Morning!",
+        "hateHello":              "Spreaking of the devil...",
+    
+        "declaringFriendship":    "Color me impressed, you have been useful! I'd like us to do more, but that requires a formal declaration of friendship, will you sing it?",
+
+        "introduction" :          "Well, well, well, a new face around. If you don't know me, I am THE Princess Carmilla da L'Ouest, leading the Green Coats, the White Winds and the Fleet in Green, all three protects our graceful kingdom of Celeste.",
+        "tradeRequest" :          "Is this arrangement good enough for you?",
+
+		"outerColor" : [  22,  90,  76 ],
+		"innerColor" : [ 255, 255, 255 ],
+
+		"uniqueName" : "The Green Coats",
+		"uniques" : [
+			"[+3 Happiness, +3 Culture] from [Great Improvement] tiles [in capital]",
+			"[Water] units gain the [Supply] promotion",
+			"[Mounted] units gain the [March] promotion",
+			"[Air] units gain the [Air Repair] promotion"
+		],
+
+		"cities" : [ 
+					"St. Divin", "Lointainie", "Vertnaif", "Siege", "Rota da L'Ouest", 
+					"Acolyte", "Millachimin", "St. Elysia", "Mars", "Rocheverte", 
+					"Bellefleur", "Montmirail", "Clairval", "Hautefort", "Valbois", 
+					"Fleurimont", "Chanteloup", "Fontenay", "Beauchamp", "Beaulieu", 
+					"St. Aubin", "Villeverte", "Grandchamp", "Chateauneuf", "Valmont", 
+					"Montclair", "Rosemont", "Port-Elysee", "St. Michel", "Couronne"
+				]
+	},	
+
+	{
+		"name" : "Chamanhu",
+		"leaderName" : "Tuva Ihvira",
+		"adjective": [ "Chamanhau" ],
+		"startBias": 
+			[
+				"Forest",
+				"Jungle"
+			],
+		"personality":           "Tuva Ihvira",
+		"preferredVictoryType" : "Religious",
+
+        "startIntroPart1" :       "Enter the deep sanctuaries of Chamanhu, where the pulse of Lady Forest guides all living things.",
+        "startIntroPart2" :       "Will you lead your people to cultural grandeur by devouring your enemies' spirits, Tuva Ihvirah?",
+
+        "declaringWar" :          "Lady Forest had enough of you, and we too grow tired of your ways!",
+
+        "attacked" :              "Ha! You think that we're no better than barbarians? That we'll crumble under your foot? Never, I say!",
+        "defeated" :              "Thirty years, thirty years of blood and tears, gone, just like that, was my fight all for nothing? Are we, the Chamanhu, destined to be mere shadows of history?",
+        
+        "denounced" :             "Judge us all you want, Lady Forest will always see us in good light.",
+        "neutralDenouncing" :     "You spit in the face of light and deny darkness its blessings, even ants and vultures serve more purpose than you!",
+        "hateDenouncing" :        "You spit in the face of light and deny darkness its blessings, even ants and vultures serve more purpose than you!",
+        
+        "neutralRejectingDemand": "What you ask is beyond what we can give, besides we won't comply to someone demanding so harshly...",
+        "hateRejectingDemand":    "We have no reason to listen to you, what makes you think we will?",
+
+        "neutralHello":           "Greetings!",
+        "hateHello":              "What do you want?",
+    
+        "declaringFriendship":    "We are like darkness and light - one together with the other, inseparable wherever they go!",
+
+        "introduction" :          "Peijo Poraite, kind traveller! My people call me the Tuva Guasu, but no need to be so formal with me, you can call me Ihvira",
+        "tradeRequest" :          "Come, come! Our people need to share more things!",
+
+		"outerColor" : [ 232,  59,  59 ],
+		"innerColor" : [  62,  53,  70 ],
+
+		"uniqueName" : "Consumer of Warriors",
+		"uniques" : [
+			"[+1 Food] from every [Forest] <with [0] to [1] neighboring [Forest] tiles>",
+			"[+1 Production] from every [Jungle] <with [0] to [1] neighboring [Jungle] tiles>",
+			"[+5]% [Food] [in all cities] <for [2] turns> <upon defeating a [Military] unit> <Suppress warning [*which is not an acceptable modifier for this unique*]>",
+			"[+5]% [Production] [in all cities] <for [2] turns> <upon defeating a [Military] unit> <Suppress warning [*which is not an acceptable modifier for this unique*]>"
+		],
+
+		"cities" : [ 
+					"Ogatuva", "Yvyrarapy", "Ytapua", "Yguacu", "Caazapa", 
+					"Paranagua", "Caaguazu", "Ypacarai", "Guaira", "Amambay", 
+					"Atyra", "Piribebuy", "Paraguari", "Tobati", "Caacupe", 
+					"Luque", "Ypane", "Villeta", "Yaguaron", "Itaugua", 
+					"Ita", "Guarambare", "Carapegua", "Tacuati", "Cuyaba", 
+					"Itambe", "Curuguaty", "Ybycui", "Caraguatatuba", "Parati"
+				]
+	},	
+
+	{
+		"name" : "Gunihir",		
+		"leaderName" : "King Egemen",
+		"adjective": [ "Gunish" ],
+		"startBias": 
+			[
+				"Coast",
+				"Avoid [Desert]",
+				"Avoid [Tundra]"
+			],
+		"personality":           "King Egemen",
+		"preferredVictoryType" : "Scientific",
+
+        "startIntroPart1" :       "Welcome to the Gunihir Isles, proud realm of mariners and sea protectors.",
+        "startIntroPart2" :       "Will your naval genius and scientific triumphs elevate Gunihir to unmatched brilliance, King Egemen?",
+
+        "declaringWar" :          "You call yourself an mighty leader, let's see if that nonsense holds any water!",
+
+        "attacked" :              "We rather deal with pirates, but sure - go ahead, your ships will not go far.",
+        "defeated" :              "Defeated we are, I bid my farewell to you and my people - make good use of our scholars",
+        
+        "denounced" :             "... Well, but can you make big ships like ours?",
+        "neutralDenouncing" :     "Your arrogance poisons the waters. The world must see your true colors.",
+        "hateDenouncing" :        "Your arrogance poisons the waters. The world must see your true colors.",
+        
+        "neutralRejectingDemand": "Demand all you wish; Gunihir bends to no tyrant.",
+        "hateRejectingDemand":    "Demand all you wish; Gunihir bends to no tyrant.",
+
+        "neutralHello":           "Greetings.",
+        "hateHello":              "Greetings...",
+    
+        "declaringFriendship":    "The Gunish people know an ally when they see it - and you would be prime ally material, great friend.",
+
+        "introduction" :          "Traveller from afar, you are entering territory claimed by the Gunihir Isles, I, King Egemen, in behalf of the Gunish people, give you their welcome.",
+        "tradeRequest" :          "Surely you have some time for some friendly bargain, right?",
+
+		"outerColor" : [ 144,  94, 169 ],
+		"innerColor" : [ 145, 219, 105 ],
+
+		"uniqueName" : "Protectors of the Sea",
+		"uniques" : [
+			"[Great Admiral] is earned [+50]% faster",
+			"Free [Galley] appears <upon founding a city>",
+			"Free [Work Boats] appears <upon founding a city>",
+			"[+100]% Production when constructing [Water] units [in all cities] <during a Golden Age>"
+			
+		],
+
+		"cities" : [ 
+					"Altinsehir", "Maviport", "Denizli", "Sinop", "Trabzon", 
+					"Bandirma", "Marmaris", "Bodrum", "Fethiye", "Cesme", 
+					"Izmir", "Mersin", "Antalya", "Alanya", "Kusadasi", 
+					"Ayvalik", "Mudanya", "Gemlik", "Gallipoli", "Canakkale", 
+					"Bartin", "Giresun", "Rize", "Ordu", "Zonguldak", 
+					"Inebolu", "Amasra", "Tekirdag", "Iskenderun", "Silifke"
+				]
+	},	
+
+	{
+		"name" : "Havisles",
+		"leaderName" : "Bjorn Tornstein 'Toothpuller'",
+		"adjective": [ "Haves" ],
+		"startBias": 
+			[
+				"Tundra"
+			],
+		"personality":           "Bjorn Tornstein 'Toothpuller'",
+		"preferredVictoryType" : "Domination",
+
+        "startIntroPart1" :       "You tread upon the frozen shores of Havisles, domain of fearsome raiders.",
+        "startIntroPart2" :       "Will you burn the old world to ashes and forge a mighty empire from the embers, Toothpuller?",
+
+        "declaringWar" :          "Your lands are rich, your people soft! Blood and fire shall be your answer!",
+
+        "attacked" :              "Haha! You come to face the Toothpuller? We will crack your bones upon our hearth!",
+        "defeated" :              "Hahahahahahahaha! Impressive I say, very impressive, a raider who raids a raider deserves no hater.",
+
+        "denounced" :             "Took you long enough.",
+        "neutralDenouncing" :     "You think you rule? You are merely fattening yourselves for our slaughter.",
+        "hateDenouncing" :        "A weak, sniveling coward! Your scalp will make a fine trophy.",
+
+        "neutralRejectingDemand": "We give tribute to no one! We TAKE!",
+        "hateRejectingDemand":    "Hahaha! You demand from US? Come try to take it, worm!",
+
+        "neutralHello":           "Speak!",
+        "hateHello":              "You?",
+
+        "declaringFriendship":    "You have the fire of a true warrior! Let us raid together as brothers!",
+
+        "introduction" :          "I am Bjorn Tornstein, called Toothpuller! Remember my face, for it is the last thing your cities will see!",
+        "tradeRequest" :          "This is better than you deserve, let it not be said that we're unfair!",
+
+		"outerColor" : [  62,  53,  70 ],
+		"innerColor" : [ 168, 132, 243 ],
+
+		"uniqueName" : "Burner of the Old World",
+		"uniques" : [
+			"Enables [Water] units to enter ocean tiles",
+			"Enables embarkation for land units",
+			"[+1 Science, +1 Culture] from every [pillaged]",
+			"Gain a free [Courthouse] [in annexed cities]",
+			"Can build [Repair] improvements at a [-50]% rate"
+		],
+
+		"cities" : [ 
+					"Braendthimmel", "Blodhavn", "Stormfjord", "Iskyst", "Jernskaer", 
+					"Draugrsted", "Rodfjord", "Frostholm", "Ulvebjerg", "Ravnevig", 
+					"Thorstind", "Hvitnes", "Svold", "Lindisfarne", "Skagerrak", 
+					"Kattegat", "Ringsted", "Ribe", "Hedeby", "Roskilde", 
+					"Viborg", "Aalborg", "Svendborg", "Middelfart", "Grenaa", 
+					"Skagen", "Frederikshavn", "Hirtshals", "Bogense", "Faaborg"
+				]
+	},	
+
+	{
+		"name" : "Hirakifune",
+		"leaderName" : "Sakura Hoshiko",
+		"adjective": [ "Hirakifunian" ],
+		"startBias": 
+			[
+				"Tundra"
+			],
+		"personality":           "Sakura Hoshiko",
+		"preferredVictoryType" : "Diplomatic",
+
+        "startIntroPart1" :       "Welcome to the northern expanse of Hirakifune, home of the unified clans.",
+        "startIntroPart2" :       "Will your diplomatic mastery and technological feats guide the clans to unprecedented glory, Sakura Hoshiko?",
+
+        "declaringWar" :          "The northern winds brings war! I look forward to crossing swords with you.",
+
+        "attacked" :              "I must thank you, in actuality, a common foe unites the divided, to arms!",
+        "defeated" :              "You fought honorably, that I must give you - but you won't find luck rallying the clans under you banner.",
+
+        "denounced" :             "At least you have the guts to tell that to my face.",
+        "neutralDenouncing" :     "Your words are hollow, for your actions differ from them - what kind of ruler behaves so?",
+        "hateDenouncing" :        "Your words are hollow, for your actions differ from them - what kind of ruler behaves so?",
+
+        "neutralRejectingDemand": "Hirakifune does not bow to unprovoked demands.",
+        "hateRejectingDemand":    "Hirakifune does not bow to unprovoked demands.",
+
+        "neutralHello":           "Greetings.",
+        "hateHello":              "Oh, it's you.",
+
+        "declaringFriendship":    "There is an air of nobility coming from you. Let us officially pledge friendship.",
+
+        "introduction" :          "Konninchiwa, I am Hoshiko Sakura, and you enter in this land's many clans. May our encounter bring mutual prosperity.",
+        "tradeRequest" :          "A fair offer from the northern nobles. What say you?",
+
+		"outerColor" : [ 255, 255, 255 ],
+		"innerColor" : [ 247, 150,  23 ],
+
+		"uniqueName" : "Unifier of the Northern Clans",
+		"uniques" : [
+			"Can spend Gold to annex or puppet a City-State that has been your Ally for [1] turns",
+			"Resting point for Influence with City-States is increased by [60] <when at war>",
+			"City-State Influence recovers at twice the normal rate"
+		],
+
+		"cities" : [ 
+					"Hoshiko", "Hanae", "Hidoiyo", "Hihoseki", "Mitsuaki", 
+					"Kenjayama", "Rinseki", "Aijo", "Kinko", "Bunshin", 
+					"Maiso", "Nanpa", "Setsuka", "Akimitsu", "Kosuke", 
+					"Hasuyari", "Yuka", "Shotai", "Sakurayama", "Yukiguni", 
+					"Kitayama", "Matsukaze", "Fujimaru", "Kazehana", "Shirakawa", 
+					"Asahi", "Tsukimi", "Kurogane", "Yamato", "Miyabi"
+				]
+	},	
+
+	{
+		"name" : "Kalastaja",
+		"leaderName" : "Bjorn Regina the Angry",
+		"adjective": [ "Kalastajan" ],
+		"startBias": 
+			[
+				"Coast",
+				"Mountain"
+			],
+		"personality":           "Bjorn Regina the Angry",
+		"preferredVictoryType" : "Domination",
+
+        "startIntroPart1" :       "Look upon the rugged, tempestuous cliffs of Kalastaja.",
+        "startIntroPart2" :       "Will your wrathful fleets conquer every horizon and claim all treasures under the sun, Bjorn Regina?",
+
+        "declaringWar" :          "Enough talk! My rage demands your head!",
+
+        "attacked" :              "You dare anger ME?! I will tear your kingdom apart stone by stone!",
+        "defeated" :              "N-no! H-how? How can this strengthless lot beat us? Beat me?",
+
+        "denounced" :             "Have you finished? Yes? NOW GET OUT!",
+        "neutralDenouncing" :     "Keep barking, dog! My furious axes will silence you soon enough!",
+        "hateDenouncing" :        "You useless worm, I will feast the day of your misery!",
+
+        "neutralRejectingDemand": "You are making ME demands? Are you insane?!",
+        "hateRejectingDemand":    "You are making ME demands? Run while you still have legs!",
+
+        "neutralHello":           "What?!",
+        "hateHello":              "Get out!",
+
+        "declaringFriendship":    "You haven't made me angry yet... in fact, I actually like you! Let us tell the world!",
+
+        "introduction" :          "I am Bjorn Regina the Angry! State your purpose before my fury gets the better of me!",
+        "tradeRequest" :          "(*sigh*) I come... (*grumble grumble*) to... t-t.... TRADE, there! I said it.",
+
+		"outerColor" : [ 195,  36,  84 ],
+		"innerColor" : [ 237, 128, 153 ],
+
+		"uniqueName" : "Raiders of Where the Sun Goes",
+		"uniques" : [
+			"Enables [Water] units to enter ocean tiles",
+			"Enables embarkation for land units",
+			"[+200]% Yield from pillaging tiles",
+			"[+200]% Health from pillaging tiles"
+		],
+
+		"cities" : [ 
+					"Raseri", "Stormklippe", "Vrede", "Haraldsfjord", "Jernkyst", 
+					"Vargnakke", "Draugvik", "Blodoks", "Tordenskjold", "Vik", 
+					"Bergen", "Tromso", "Alesund", "Bodo", "Narvik", 
+					"Lofoten", "Hammerfest", "Vardo", "Kristiansund", "Molde", 
+					"Haugesund", "Stavanger", "Harstad", "Alta", "Floro", 
+					"Sandnessjoen", "Mo i Rana", "Svolvaer", "Stamsund", "Honningsvag"
+				]
+	},	
+
+	{
+		"name" : "Jahzeiten",
+		"leaderName" : "Lord Marcellus",
+		"adjective": [ "Jahzeitern" ],
+		"startBias": 
+			[
+				"Grassland"
+			],
+		"personality":           "Lord Marcellus",
+		"preferredVictoryType" : "Diplomatic",
+
+        "startIntroPart1" :       "Step into the grand empire of Jahzeiten, star of the southern horizons.",
+        "startIntroPart2" :       "Will your mastery of diplomacy and elite minds elevate Jahzeiten to imperial perfection, Lord Marcellus?",
+
+        "declaringWar" :          "The red star of Jahzeiten demands your submission. Prepare for battle!",
+
+        "attacked" :              "An assault against Jahzeiten? For the sake of your people, I pray that you jest.",
+        "defeated" :              "We'll be gone, but Betelgeuse will still shine brightly in the sky.",
+
+        "denounced" :             "How reckless of you.",
+        "neutralDenouncing" :     "You govern like a child in a room full of relics.",
+        "hateDenouncing" :        "An uncultured savage with a crown. The world despises your tyranny.",
+
+        "neutralRejectingDemand": "Imperials do not listen to commoners in fancy clothing.",
+        "hateRejectingDemand":    "Your demands are as worthless as your reputation.",
+
+        "neutralHello":           "Welcome!",
+        "hateHello":              "Ah, its you.",
+
+        "declaringFriendship":    "Your wisdom rivals our own. Let us formalize a grand alliance between our peoples.",
+
+        "introduction" :          "Greetings. I am Lord Marcellus of Mitra, right hand man of his Majesty Jeremiah III, rightful ruler of the Empire of the Betelgeuse.",
+        "tradeRequest" :          "A proposal fit for empires of distinction.",
+
+		"outerColor" : [ 179,  56,  49 ],
+		"innerColor" : [ 249, 194,  43 ],
+
+		"uniqueName" : "Empire of the Betelgeuse",
+		"uniques" : [
+			"Allied City-States will occasionally gift Great People",
+			"[-50]% Unhappiness from [Specialists] [in all cities]",
+			"When defeating a [Unique] unit, earn [-10] Gold and recruit it"
+		],
+
+		"cities" : [ 
+					"Ritterherz", "Heiter", "Mitra", "Stranshen", "Volgehar", 
+					"Wappernham", "Sternenburg", "Betelgeuse", "Kaiserburg", "Adlerfels", 
+					"Goldkron", "Rotstern", "Himmelreich", "Kronstadt", "Falkenstein", 
+					"Ehrenburg", "Sonnenfels", "Edelweiss", "Hohendorf", "Greifenberg", 
+					"Weisshafen", "Rosenburg", "Silberberg", "Treuenfels", "Lindau", 
+					"Eisenberg", "Friedland", "Wolkenstein", "Lichteneck", "Neuschwan"
+				]
+	},	
+
+	{
+		"name" : "Kallatberg",
+		"leaderName" : "King Frederik",
+		"adjective": [ "Kallatbern" ],
+		"startBias": 
+			[
+				"Tundra",
+				"Hill"
+			],
+		"personality":           "King Frederik",
+		"preferredVictoryType" : "Scientific",
+
+        "startIntroPart1" :       "Welcome to Kallatberg, where frozen peaks harbor brilliant minds and lofty ideas.",
+        "startIntroPart2" :       "Will your embrace of progress and history guide Kallatberg through the winds of change, King Frederik?",
+
+        "declaringWar" :          "Progress cannot be stymied by your outdated ways. War it is!",
+
+        "attacked" :              "... You are bringing winter clothing for your men, right? The last ones didn't - I mean- I mean - How dare you?",
+        "defeated" :              "Ah... the cold breeze of Kallatberg won't be the same again...",
+
+        "denounced" :             "... I know...",
+        "neutralDenouncing" :     "I once thought of you as a friend, I've seen that I could not have been more wrong!",
+        "hateDenouncing" :        "I once thought of you as a friend, I've seen that I could not have been more wrong!",
+
+        "neutralRejectingDemand": "... Uh... we uh... politely decline.",
+        "hateRejectingDemand":    "... Seriously what was I thinking when I called you frien- I mean - Uh, no!",
+
+        "neutralHello":           "You're back!",
+        "hateHello":              "Oh... you're back...",
+
+        "declaringFriendship":    "A fellow enlightened leader! Let us declare our friendship to the world - I mean surely we have to state the obvious to the world, yes? Yes?",
+
+        "introduction" :          "Oh, a frien- I mean- I am King Frederik of Kallatberg, ruler of sages and a fellow appreciator of culture and science.",
+        "tradeRequest" :          "A logical exchange of resources... right?",
+
+		"outerColor" : [ 230, 144,  78 ],
+		"innerColor" : [  77, 101, 180 ],
+
+		"uniqueName" : "Winds of Change",
+		"uniques" : [
+			"[+6 Science] from [Landmark] tiles [in all cities]",
+			"Comment [Free Technology upon completing a Social Policy Branch]",
+			"[-10]% Culture cost of adopting new Policies",
+			"Free Technology <upon adopting [Tradition Complete]> <hidden from users>",
+			"Free Technology <upon adopting [Liberty Complete]> <hidden from users>",
+			"Free Technology <upon adopting [Honor Complete]> <hidden from users>",
+			"Free Technology <upon adopting [Piety Complete]> <hidden from users>",
+			"Free Technology <upon adopting [Patronage Complete]> <hidden from users>",
+			"Free Technology <upon adopting [Commerce Complete]> <hidden from users>",
+			"Free Technology <upon adopting [Rationalism Complete]> <hidden from users>",
+			"Free Technology <upon adopting [Freedom Complete]> <hidden from users>",
+			"Free Technology <upon adopting [Autocracy Complete]> <hidden from users>",
+			"Free Technology <upon adopting [Order Complete]> <hidden from users>"
+		],
+
+		"cities" : [ 
+					"Krigsstad", "Frysilia", "Toppmark", "Batspell", "Berskgugga", 
+					"Siltias", "Kaukvene", "Snofall", "Isberg", "Vindstilla", 
+					"Stjarnholm", "Klokhet", "Fjallby", "Djupdal", "Frostvik", 
+					"Norrland", "Askberg", "Glaciar", "Vinterstad", "Silfverberg", 
+					"Ekeby", "Bjorknas", "Ljushammar", "Skuggdal", "Vargfjall", 
+					"Tistelholm", "Svartvik", "Grankulla", "Kallberget", "Rosenholm"
+				]
+	},	
+
+	{
+		"name" : "Ljubav",
+		"leaderName" : "Queen Nevekah",
+		"adjective": [ "Lascivious" ],
+		"startBias": 
+			[
+				
+			],
+		"personality":           "Queen Nevekah",
+		"preferredVictoryType" : "Religious",
+
+        "startIntroPart1" :       "Welcome to Ljubav, the romantic heartland where passion and desire weave destiny.",
+        "startIntroPart2" :       "Will your charm and everlasting devotion inspire harmony across all realms, Queen Nevekah?",
+
+        "declaringWar" :          "Oh sweet child, love can be cruel... and so can we!",
+
+        "attacked" :              "How heartbreaking! To strike at a heart so loving...",
+        "defeated" :              "No! What will be of Ljubav? What will be of love?",
+
+        "denounced" :             "Envy is not healthy for that little heart of yours, hon.",
+        "neutralDenouncing" :     "A cold soul leading an uninspired realm. What a pity.",
+        "hateDenouncing" :        "Your wretched heart holds no love, only filth and spite.",
+
+        "neutralRejectingDemand": "Flattery might get you far, but crude demands get you nowhere.",
+        "hateRejectingDemand":    "Flattery might get you far, but crude demands get you nowhere.",
+
+        "neutralHello":           "How delightful!",
+        "hateHello":              "Look what the cold wind blew in...",
+
+        "declaringFriendship":    "My heart flutters in your presence! Let us declare our love and friendship to the world!",
+
+        "introduction" :          "Sorry for the delay, my dear, I was, *ahem*, 'busy', I am Queen Nevekah, you are the most welcome in the Kingdom of Love!",
+        "tradeRequest" :          "A sweet exchange between lovely partners, yes?",
+
+		"outerColor" : [ 107,  62, 117 ],
+		"innerColor" : [ 240,  79, 120 ],
+
+		"uniqueName" : "The Romantic Kingdom",
+		"uniques" : [
+			"[-100]% unhappiness from the number of cities",
+			"[-1 Happiness] [in all cities] <for every [Era number]>",			
+			"[+1]% growth [in all cities] <for every [2] [Happiness]>",
+			"[50]% of excess happiness converted to [Gold]",
+			"[50]% of excess happiness converted to [Culture]",
+			"[50]% of excess happiness converted to [Faith] <after founding a religion>"
+		],
+
+		"cities" : [ 
+					"Srcezemlje", "Sladak", "Ljubovija", "Strast", "Poljubac", 
+					"Lepota", "Dusa", "Ruza", "Zvezda", "Milovanje", 
+					"Radost", "Nadahnuce", "Sreca", "Carolija", "Ceznja", 
+					"Toplina", "Zelja", "Plamen", "Neznost", "Venac", 
+					"Biser", "Suncokret", "Melodija", "Ocarane", "Vernost", 
+					"Neven", "Danica", "Zorica", "Andeo", "Vecnost"
+				]
+	},	
+
+	{
+		"name" : "Madsunlagi",
+		"leaderName" : "King Dhabar",
+		"adjective": [ "Madunlagian" ],
+		"startBias": 
+			[
+				"Mountain",
+				"Hill"
+			],
+		"personality":           "King Dhabar",
+		"preferredVictoryType" : "Domination",
+
+        "startIntroPart1" :       "Behold Madsunlagi, fortress of the craggy peaks and lords of the skies.",
+        "startIntroPart2" :       "Will your heavy wings eclipse the sun and conquer all who stand beneath you, King Dhabar?",
+
+        "declaringWar" :          "Death from above! Don't give them time to regret!",
+
+        "attacked" :              "Ha! Climb! Climb the mountain where our wyverns lie, I dare you! I double dare you!",
+        "defeated" :              "Our wings are broken, and the wyverns rest... the skies belong to you.",
+
+        "denounced" :             "Of course, the hill wishes to be a mountain!",
+        "neutralDenouncing" :     "A pathetic ruler destined to be crushed by even the weakest of kings!",
+        "hateDenouncing" :        "A pathetic ruler destined to be crushed by even the weakest of kings!",
+
+        "neutralRejectingDemand": "The land has no business in the matters of the sky.",
+        "hateRejectingDemand":    "The land has no business in the matters of the sky!",
+
+        "neutralHello":           "Greetings.",
+        "hateHello":              "Speak!",
+
+        "declaringFriendship":    "You share our vision. Let the whole world know of our alliance!",
+
+        "introduction" :          "I am King Dhabar of Madsunlagi. Look to the skies and witness our might!",
+        "tradeRequest" :          "Take it or leave it.",
+
+		"outerColor" : [ 219, 207, 177 ],
+		"innerColor" : [  95,  95, 110 ],
+
+		"uniqueName" : "Conquest of the Heavy Wings",
+		"uniques" : [
+			"[+1 Production] from every [Mountain] <for every adjacent [City center]>",
+			"[+1 Production] from every [Mountain] <for every adjacent [Mine]>",
+			"[+2 Production] from every [Mountain] <for every adjacent [Manufactory]>",
+			"[-100]% maintenance costs <for [Air] units>"
+		],
+
+		"cities" : [ 
+					"Burstanlagi", "Tummal", "Khadia", "Yebinta", "Dhulka Aiba", 
+					"Mogada", "Hargisa", "Bosaso", "Berbera", "Garowe", 
+					"Kismayo", "Marka", "Baidoa", "Burao", "Hobyo", 
+					"Las Anod", "Jalalaqsi", "Erigavo", "Luuq", "Afgooye", 
+					"Zeila", "Qandala", "Jowhar", "Bu'aale", "Badhan", 
+					"Bardera", "Eyl", "Beledweyne", "Galkayo", "Sheikh"
+				]
+	},	
+
+	{
+		"name" : "Naftes",
+		"leaderName" : "King Thucydides",
+		"adjective": [ "Naftian" ],
+		"startBias": 
+			[
+				"Coast",
+				"Hill"
+			],
+		"personality":           "King Thucydides",
+		"preferredVictoryType" : "Diplomatic",
+
+        "startIntroPart1" :       "Welcome to Naftes, island of ancient ruins and deep sea chants.",
+        "startIntroPart2" :       "Will the echoes of ancient songs lead your diplomatic legacy through the ages, King Thucydides?",
+
+        "declaringWar" :          "The oversea colonies need food, and we had a bad crop year, your farms or your lifes!",
+
+        "attacked" :              "Do you want to see the Lesbians in action? Be my guest!",
+        "defeated" :              "Ah, so soon? Naftes fades back into non-existance...",
+
+        "denounced" :             "You will choke on your own words at this rate...",
+        "neutralDenouncing" :     "Your leadership is rather lacking, and your actions speak of your true character.",
+        "hateDenouncing" :        "I've seen pirates less cruel than your men - Are you sure you are civilized?",
+
+        "neutralRejectingDemand": "I think I didn't made myself clear when I said 'We don't need more headaches'.",
+        "hateRejectingDemand":    "Oh, you! You make this cruel world a worse place! Begone!",
+
+        "neutralHello":           "Greetings.",
+        "hateHello":              "And you trouble us so anyway...",
+
+        "declaringFriendship":    "A formidable ruler you are. Let us form a bond of true friendship.",
+
+        "introduction" :          "I am King Thucydides, and this is the Naftes. Please, we already have to worry about the lascives, the cannibals and the rangers, we don't need more headaches.",
+        "tradeRequest" :          "An offering of goods.",
+
+		"outerColor" : [  48, 225, 185 ],
+		"innerColor" : [ 207, 101, 127 ],
+
+		"uniqueName" : "Sea Chanter's Legacy",
+		"uniques" : [
+			"Cannot collect [Ancient ruins] tiles <Suppress warning [*not found in Unciv's unique types, and is not used as a filtering unique*]>",
+			"[+1 Culture] from every [Ocean]",
+			"[+2 Culture, +2 Faith] from every [Ancient ruins]"
+		],
+
+		"cities" : [ 
+					"Paliostochos", "Kymathos", "Thalassia", "Aegean", "Lesbos", 
+					"Navplion", "Pelagios", "Pontos", "Akrotiri", "Monemvasia", 
+					"Nafpaktos", "Lindos", "Zakynthos", "Lefkada", "Chora", 
+					"Mystras", "Ithaki", "Delos", "Aegina", "Samothraki", 
+					"Naxos", "Thira", "Symi", "Skopelos", "Poros", 
+					"Hydra", "Alonnisos", "Milos", "Amorgos", "Patmos"
+				]
+	},	
+
+	{
+		"name" : "Rhedeg",
+		"leaderName" : "King Arwel",
+		"adjective": [ "Rhedegian" ],
+		"startBias": 
+			[
+				"Mountain"
+			],
+		"personality":           "King Arwel",
+		"preferredVictoryType" : "Scientific",
+
+        "startIntroPart1" :       "Welcome to Rhedeg, where master engineers hollow out mountain realms.",
+        "startIntroPart2" :       "Will your grand engineering marvels and scientific genius conquer the highest peaks, King Arwel?",
+
+        "declaringWar" :          "A live display of our machinery - their speciality? Your demise!",
+
+        "attacked" :              "You attack the mountain strongholds of Rhedeg? You are insane!",
+        "defeated" :              "Our machinery wasn't good enough to deal with your nonsense... Just... Just leave us be already!",
+
+        "denounced" :             "Words, words, words, the only thing you good at, spitting useless words.",
+        "neutralDenouncing" :     "You couldn't build a proper bridge, let alone a prosperous empire!",
+        "hateDenouncing" :        "A mindless brute you are! My borders are open for your folk who are tired of your nonsense!",
+
+        "neutralRejectingDemand": "You bore us with your little threats, ha!",
+        "hateRejectingDemand":    "Get off our mountain with your foolish demands!",
+
+        "neutralHello":           "Greetings!",
+        "hateHello":              "Oh...",
+
+        "declaringFriendship":    "A fellow hardworker, you people are! Let us announce our partnership to the world.",
+
+        "introduction" :          "Welcome! I am King Arwel of Rhedeg. I hope the climbing wasn't too tiresome!",
+        "tradeRequest" :          "Finely crafted goods for trade!",
+
+		"outerColor" : [  77, 101, 180 ],
+		"innerColor" : [ 234,  79,  54 ],
+
+		"uniqueName" : "Short People withing Heights",
+		"uniques" : [
+			"Land units may cross [Mountain] tiles after the first [Great Engineer] is earned",
+			"Free [Great Engineer] appears <upon discovering [Construction] technology>",
+			"[+1]% [Production] [in all cities] <for every [Coal]>"
+		],
+
+		"cities" : [ 
+					"Old Rhedeg", "Hebogydd", "Amgued", "Porthllad", "Choll", 
+					"Manaschau", "Gwintina", "Caerdydd", "Blaenau", "Aberystwyth", 
+					"Castellafon", "Dolgellau", "Moelwyn", "Pontypridd", "Penrhyn", 
+					"Llangollen", "Tredegar", "Llanberis", "Cwmbran", "Bethesda", 
+					"Merthyr", "Trefriw", "Rhondda", "Caernarfon", "Ebbw", 
+					"Beddgelert", "Machynlleth", "Porthmadog", "Aberdare", "Ruthin"
+				]
+	},	
+
+	{
+		"name" : "Roverland",
+		"leaderName" : "Bjorn Rubben",
+		"adjective": [ "Roverine" ],
+		"startBias": 
+			[
+				"Coast",
+				"Plains"
+			],
+		"personality":           "Bjorn Rubben",
+		"preferredVictoryType" : "Diplomatic",
+
+        "startIntroPart1" :       "Welcome to Roverland, a land built upon fraternity, freedom, and open plains.",
+        "startIntroPart2" :       "Will your commitment to brotherhood unite all nations in harmony, Bjorn Rubben?",
+
+        "declaringWar" :          "You have broken the peace and threatened our brotherhood. War is our only choice!",
+
+        "attacked" :              "You forget that we still are vikings, you will not shatter Roverland!",
+        "defeated" :              "We were united, fought in unison, and yet failed? N-No! Please, my people, we need to work together!",
+
+        "denounced" :             "You are starting to show your true colors...",
+        "neutralDenouncing" :     "Your actions drive others away, you are doomed to be alone!",
+        "hateDenouncing" :        "You bring spite and hatred wherever you go. Leave us!",
+
+        "neutralRejectingDemand": "We share with friends, not with bullies.",
+        "hateRejectingDemand":    "We share with friends, not with tyrants.",
+
+        "neutralHello":           "Welcome, brother!",
+        "hateHello":              "Ah, you...",
+
+        "declaringFriendship":    "True friendship is rare! Let us declare our deep friendship to all nations!",
+
+        "introduction" :          "Greetings! I am Bjorn Rubben of the Rover people. You are always welcome to our lands, brother!",
+        "tradeRequest" :          "Fair trade makes for good neighbors, don't you think?",
+
+		"outerColor" : [  49,  93, 205 ],
+		"innerColor" : [ 255, 224, 139 ],
+
+		"uniqueName" : "Brotherhood Among People",
+		"uniques" : [
+			"Enables [Water] units to enter ocean tiles",
+			"Enables embarkation for land units",
+			"[+1 Happiness] [in all cities] <for [30] turns> <upon declaring friendship>",
+			"[+1 Happiness] [in all cities] <for [30] turns> <upon declaring a defensive pact>"
+		],
+
+		"cities" : [ 
+					"Nyfundet", "Brodersted", "Frihavn", "Sletteby", "Vennelund", 
+					"Fredsholm", "Sammenhold", "Gronvang", "Solbjerg", "Arhus", 
+					"Odense", "Esbjerg", "Kolding", "Horsens", "Vejle", 
+					"Randers", "Silkeborg", "Herning", "Naestved", "Slagelse", 
+					"Holstebro", "Taastrup", "Hillerod", "Holbaek", "Svendborg", 
+					"Hjorring", "Sonderborg", "Haderslev", "Skive", "Fredericia"
+				]
+	},	
+
+	{
+		"name" : "Strelka",
+		"leaderName" : "Petko the Hunter",
+		"adjective": [ "Strelk" ],
+		"startBias": 
+			[
+				"Plains"
+			],
+		"personality":           "Petko the Hunter",
+		"preferredVictoryType" : "Cultural",
+
+        "startIntroPart1" :       "Step into Strelka, domain of swift rangers and wide open plains.",
+        "startIntroPart2" :       "Will your hunters track down glory and culture across the boundless horizons, Petko the Hunter?",
+
+        "declaringWar" :          "The hunt begins! And you are our prey!",
+
+        "attacked" :              "Yes, come to our lands, spare us the worry of hunting you down!",
+        "defeated" :              "Is this all my people are reduced to, a mere inconvenience in an empire of evil? What have I done?",
+
+        "denounced" :             "We never cause any grief towards your people, your harsh words are unnecessary.",
+        "neutralDenouncing" :     "You know nothing of the land or honor. A poor ruler.",
+        "hateDenouncing" :        "Those who avoid civilization know more of it than you, a ruler like you should take notes...",
+
+        "neutralRejectingDemand": "Hunt like that, and you will have no catch to speak of.",
+        "hateRejectingDemand":    "Keep demanding, and you will find an arrow in your throat.",
+
+        "neutralHello":           "Greetings!",
+        "hateHello":              "Watch your step.",
+
+        "declaringFriendship":    "You hunt alongside us with honor. Let us form a bond of true friendship!",
+
+        "introduction" :          "I am Petko the Hunter, leader of the Strelk rangers. We are people of peace, but we do not shy from war.",
+        "tradeRequest" :          "Hides, meats, and goods from the plains!",
+
+		"outerColor" : [   0,  64,  43 ],
+		"innerColor" : [ 155,  75,  56 ],
+
+		"uniqueName" : "Rangers of the Plains",
+		"uniques" : [
+			"Notified of new Barbarian encampments",
+			"[+33]% Strength <vs [Barbarians] units>",
+			"[+33]% Strength <vs [City-State] units>",
+			"[+1 Production] from every [{Plains} {City center}]",
+			"[Land] units gain the [Woodsman] promotion"
+		],
+
+		"cities" : [ 
+					"Strelka City", "Lovets", "Orlin", "Dunav", "Balkan", 
+					"Pliska", "Preslav", "Veliko", "Shipka", "Rhodope", 
+					"Bansko", "Troyan", "Melnik", "Belogradchik", "Koprivshtitsa", 
+					"Sozopol", "Nessebar", "Karlovo", "Samokov", "Panagyurishte", 
+					"Kazanlak", "Smolyan", "Kyustendil", "Gabrovo", "Vratsa", 
+					"Sliven", "Yambol", "Montana", "Razgrad", "Silistra"
+				]
+	},	
+
+	{
+		"name" : "Unoda",
+		"leaderName" : "Jaska the Great",
+		"adjective": [ "Unodian" ],
+		"startBias": 
+			[
+				"Snow"
+			],
+		"personality":           "Jaska the Great",
+		"preferredVictoryType" : "Religious",
+
+        "startIntroPart1" :       "Welcome to Unoda, cradle of the Pakaste River amidst frozen snowlands.",
+        "startIntroPart2" :       "Will your mastery of trade and ice-bound rivers lead Unoda to greatness, Jaska the Great?",
+
+        "declaringWar" :          "You have toyed with the world for long enough. Unodians, advance!",
+
+        "attacked" :              "Good luck finding us hunters among the snow.",
+        "defeated" :              "Unoda, my beloved land - it's sad to see you seized.",
+
+        "denounced" :             "Your crude diplomacy melts away any goodwill between us.",
+        "neutralDenouncing" :     "You are cold, even towards your own people. We loathe the likes of you.",
+        "hateDenouncing" :        "You are cold, even towards your own people. We loathe the likes of you.",
+
+        "neutralRejectingDemand": "Is this what you call a 'threat'? It's rather lacking.",
+        "hateRejectingDemand":    "Your time would be better spent elsewhere.",
+
+        "neutralHello":           "Warm greetings!",
+        "hateHello":              "What?",
+
+        "declaringFriendship":    "Our burden may be different, but we both carry it with dignity. We share so much in common, don't you think?",
+
+        "introduction" :          "Greetings. I am Jaska of Unoda, chief from the Pakaste river.",
+        "tradeRequest" :          "What do you think of this exchange?",
+
+		"outerColor" : [ 255, 255, 255 ],
+		"innerColor" : [ 117,  98, 118 ],
+
+		"uniqueName" : "Birth of the Pakaste River",
+		"uniques" : [
+			"[+1 Food] from every [City center] <for every adjacent [Snow]>",
+			"[+1 Food] from every [City center] <for every adjacent [Tundra]>",
+			"Roads connect tiles across rivers",
+			"Can build [All Road] improvements at a [+25]% rate"
+		],
+
+		"cities" : [ 
+					"Jumalastys", "Toistavot", "Passy", "Pakaste", "Joki", 
+					"Rovaniemi", "Oulu", "Kuusamo", "Inari", "Kittila", 
+					"Sodankyla", "Kemijarvi", "Tornio", "Kemi", "Ivalo", 
+					"Ranua", "Suomussalmi", "Kuopio", "Joensuu", "Kajaani", 
+					"Lieksa", "Nurmes", "Kuhmo", "Salla", "Muonio", 
+					"Enontekio", "Kilpisjarvi", "Utsjoki", "Posio", "Taivalkoski"
+				]
+	},	
+
+	{
+		"name" : "Valdavia",
+		"leaderName" : "Bishop Dumitru",
+		"adjective": [ "Valdavian" ],
+		"startBias": 
+			[
+				"Mountain",
+				"Hill"
+			],
+		"personality":           "Bishop Dumitru",
+		"preferredVictoryType" : "Religious",
+
+        "startIntroPart1" :       "Enter Valdavia, a mountain realm governed by devout conviction and stern rule.",
+        "startIntroPart2" :       "Will your divine authority and righteous vengeance subjugate all grander empires, Bishop Dumitru?",
+
+        "declaringWar" :          "Our master demands it! War! War! War!",
+
+        "attacked" :              "We don't need another conqueror, sir.",
+        "defeated" :              "At last, Valdavia is conquered for good...",
+
+        "denounced" :             "Take your complaints to our master, but also... don't.",
+        "neutralDenouncing" :     "A wicked tyrant whose soul is doomed to torment - this is what you amount to.",
+        "hateDenouncing" :        "A wicked tyrant whose soul is doomed to torment - this is what you amount to.",
+
+        "neutralRejectingDemand": "Only our master can tell us what to do...",
+        "hateRejectingDemand":    "'Only one is your master, only one is your father.'",
+
+        "neutralHello":           "Greetings...",
+        "hateHello":              "Greetings...",
+
+        "declaringFriendship":    "This offer of friendship is made with the blessings of our master.",
+
+        "introduction" :          "Welcome. I am Bishop Dumitru, leading the poor souls of Valdavia, do not conquer us, for we already have a master.",
+        "tradeRequest" :          "This trade is made with the blessings of our master.",
+
+		"outerColor" : [  34,  71,  76 ],
+		"innerColor" : [ 200,  49,  87 ],
+
+		"uniqueName" : "Cel Care Conduce, Conduce Din Putere",
+		"uniques" : [
+			"[+25]% Strength <when fighting units from a Civilization with more Cities than you>",
+			"[-50]% Production when constructing [Settler] units [in all cities]",
+			"[+1 Production, +1 Culture] from every [Improvement] <for every adjacent [City center]>",
+			"Heals [50] damage if it kills a unit"
+		],
+
+		"cities" : [ 
+					"Piciorul", "Afhran", "Soares", "Sinaia", "Brasov", 
+					"Cetatea", "Sighisoara", "Bran", "Moldovita", "Suceava", 
+					"Targoviste", "Curtea", "Piatra", "Sibiu", "Devana", 
+					"Rasnov", "Hunedoara", "Campulung", "Bucovina", "Rodna", 
+					"Vatra", "Voronet", "Murfatlar", "Bistrita", "Drobeta", 
+					"Snagov", "Neamt", "Cozia", "Timis", "Arges"
+				]
+	},	
+
+	{
+		"name" : "Vrakovia",
+		"leaderName" : "Vincent 'Fatherpike'",
+		"adjective": [ "Vrakish" ],
+		"startBias": 
+			[
+				"Grassland"
+			],
+		"personality":           "Vincent 'Fatherpike'",
+		"preferredVictoryType" : "Scientific",
+
+        "startIntroPart1" :       "Welcome to Vrakovia, land of impenetrable defenses and pike walls.",
+        "startIntroPart2" :       "Will your disciplined ranks and scientific prowess hold every line, Vincent 'Fatherpike'?",
+
+        "declaringWar" :          "Lower the pikes and advance! Vrakovia marches to war!",
+
+        "attacked" :              "There we go, took you long enough to show your true intentions! Hahaha, we will OBLIGE to your death wish.",
+        "defeated" :              "No! B-but all the hatred I sowed- N-nooo!",
+
+        "denounced" :             "The sentiment will always be mutual.",
+        "neutralDenouncing" :     "Of all our neighbours, you are the most annoying of them all!",
+        "hateDenouncing" :        "A warmongering tyrant! You will find no easy conquest here.",
+
+        "neutralRejectingDemand": "Turn your Demand away. Our pikes have an answer for you if you come closer.",
+        "hateRejectingDemand":    "Turn your Demand away. Our pikes have an answer for you if you come closer.",
+
+        "neutralHello":           "What?",
+        "hateHello":              "What?",
+
+        "declaringFriendship":    "... Perhaps you aren't annoying as I thought...",
+
+        "introduction" :          "You dare to walk on Vrakish territory? Get away, or face the wrath of the 'Fatherpike'.",
+        "tradeRequest" :          "You have something we need, now shush.",
+
+		"outerColor" : [ 150, 108, 108 ],
+		"innerColor" : [  67,  38,  65 ],
+
+		"uniqueName" : "Through this Land You won't Ride!",
+		"uniques" : [
+			"[+50]% Strength <vs [Mounted] units> <for [Sword] units>",
+			"[+50]% Strength <vs [Mounted] units> <for [Gunpowder] units>",
+			"[+50]% Strength <vs [Armored] units> <for [Gunpowder] units>"
+		],
+
+		"cities" : [ 
+					"Stena", "Ostra", "Tvrdosin", "Hradisko", "Spis", 
+					"Devin", "Trencin", "Orava", "Beckov", "Bojnice", 
+					"Nitra", "Zvolen", "Kezmarok", "Bytca", "Kremnica", 
+					"Banska", "Strecno", "Likava", "Smolenice", "Cerveny", 
+					"Krasna", "Kralova", "Povazska", "Roznava", "Bardejov", 
+					"Levoca", "Poprad", "Ruzomberok", "Martin", "Skalica"
+				]
+	},	
+
+	{
+		"name" : "A Blank",
+		"leaderName" : "John Doe",
+		"adjective": [ "John Donian" ],
+		"startBias": 
+			[
+				"Grassland"
+			],
+		"personality":           "Template",
+		"preferredVictoryType" : "Domination",
+
+        "startIntroPart1" :       "Welcome to A Blank, a totally average realm.",
+        "startIntroPart2" :       "Will you rise above mediocrity and conquer the world, John Doe?",
+
+        "declaringWar" :          "To war we go, wee!",
+
+        "attacked" :              "Please don't kill us...",
+        "defeated" :              "Please don't kill us...",
+
+        "denounced" :             "You are not very nice, you know.",
+        "neutralDenouncing" :     "You are not very nice, you know.",
+        "hateDenouncing" :        "You are not very nice, you know.",
+
+        "neutralRejectingDemand": "No, thank you.",
+        "hateRejectingDemand":    "Definitely not.",
+
+        "neutralHello":           "Hello.",
+        "hateHello":              "Oh, hello.",
+
+        "declaringFriendship":    "We seem to get along nicely. Let's be friends!",
+
+        "introduction" :          "Hi, uh... I'm John Doe.",
+        "tradeRequest" :          "Buddy buddy?",
+
+		"outerColor" : [  88,  93, 129 ],
+		"innerColor" : [ 125, 190, 250 ],
+
+		"uniqueName" : "The Most Average",
+		"uniques" : [
+			"Comment [Has no Strengths or Weaknesses to speak off]"
+		],
+
+		"cities" : [ "Capital", "City A", "City B", "City C", "City D", "City E", "City F", "City G", "City H", "City I", "City J", "City K", "City L", "City M", "City N", "City O", "City P", "City Q", "City R", "City S", "City T", "City U", "City V", "City W", "City X", "City Y", "City Z" ]
+	},	
+
+	// City-States sorted by cityStateType, name
+
+	// Culture
+
+	{
+		"name": "Caraguatatuba", 	// Can be called 'Caragua' for short
+		"adjective": [ "Caraguatatubense" ],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice, war it must be!",
+		"attacked":     "Don't underestimate us, peace is not weakness, it's a choice.",
+		"defeated":     "Caraguatatuba o pretty, what splendor of beauty rare...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 139,  96, 255 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Caraguatatuba" ]
+	},
+
+
+	{
+		"name": "Jatynyt Helvet",
+		"adjective": [ "Jatinite" ],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice, war it must be!",
+		"attacked":     "Oh you! How dare you attack our sovereignty?",
+		"defeated":     "I guess you like the snow that much...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 139,  96, 255 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Jatynyt Helvet" ]
+	},
+
+
+	{
+		"name": "Kaukvene",
+		"adjective": [ "Kauke" ],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "To war we go!",
+		"attacked":     "This little endeavour will be a footnote on our House of Poem and War.",
+		"defeated":     "The gentle breeze won't be the same with you in charge...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 139,  96, 255 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Kaukvene" ]
+	},
+
+
+	{
+		"name": "Kyoko",
+		"adjective": [ "Kyokonense" ],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "Dreams and Humpets, in the woods' a boar, Screams and Trumpets, we shall march to war!",
+		"attacked":     "Look at this huff, marching without flare, we call your bluff, attack us, if you dare!",
+		"defeated":     "Gazeful fate, what brings you so? Gazeful fate, why we must go...?",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 139,  96, 255 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Kyoko" ]
+	},
+
+
+	{
+		"name": "Mars",
+		"adjective": [ "Martian" ],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "Our men were born to die, to war!",
+		"attacked":     "You dare bring war to us? You dare take the pride of marching from us?",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 139,  96, 255 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Mars" ]
+	},
+
+
+	{
+		"name": "Minos",
+		"adjective": [ "Mine" ],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "To arms, brothers!",
+		"attacked":     "Oh you! How dare you attack our sovereignty?",
+		"defeated":     "Are we done? Was enough blood spilled already, 'Your Majesty'?",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 139,  96, 255 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Minos" ]
+	},
+
+
+	{
+		"name": "New Rhedeg",
+		"adjective": [ "New-Rhedegian" ],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "Oi, you! You annoyed everyone enough!",
+		"attacked":     "Hah, you sure you want our smoke? We are the best of the two worlds between Rhedeg and Bornthride!",
+		"defeated":     "Oh boo, ye stinks!",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 139,  96, 255 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "New Rhedeg" ]
+	},
+
+
+	{
+		"name": "Psy",
+		"adjective": [ "Psian" ],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "Defend our homes we must, dealt with you shall be!",
+		"attacked":     "At risk our freedom is, and idly, we will not sit.",
+		"defeated":     "Conquered we were, but acept your rule we will not!",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 139,  96, 255 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Psy" ]
+	},
+
+
+	{
+		"name": "St. Dekes",
+		"adjective": [ "Saint-Dekean" ],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "We charge down the mountains, our mommentum shall be your doom!",
+		"attacked":     "We may not fly, but we still come from the sky, to arms!",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 139,  96, 255 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "St. Dekes" ]
+	},
+
+
+	{
+		"name": "St. Stall",
+		"adjective": [ "Saint-Staller" ],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "Gentlemen, as agreeded upon, we ride against this baffon and it's people!",
+		"attacked":     "How diplomatic of you...",
+		"defeated":     "So that's what they mean by 'honourable men lay dead on the ground'...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 139,  96, 255 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "St. Stall" ]
+	},
+
+	// Maritime
+
+	{
+		"name": "Gallipoli",
+		"adjective": [ "Gallipolian" ],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "March and sail, we sink this tyrant today!",
+		"attacked":     "Oh you! How dare you attack our sovereignty?",
+		"defeated":     "... Well, but your ships aren't as big.",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [  56, 255, 112 ],
+
+		"uniques" : [
+			"Start bias [Coast]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Gallipoli" ]
+	},
+
+	{
+		"name": "Gutafen",
+		"adjective": [ "Gutafian" ],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "To war we go!",
+		"attacked":     "Oh you! How dare you attack our sovereignty?",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [  56, 255, 112 ],
+
+		"uniques" : [
+			"Start bias [Coast]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Gutafen" ]
+	},
+
+	{
+		"name": "Miletos",
+		"adjective": [ "Miletese" ],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "To war we go!",
+		"attacked":     "Oh you! How dare you attack our sovereignty?",
+		"defeated":     "... You'll give us a evil queen to rule over, won't you?",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [  56, 255, 112 ],
+
+		"uniques" : [
+			"Start bias [Coast]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Miletos" ]
+	},
+
+	{
+		"name": "Millachimin",
+		"adjective": [ "Millachiminian" ],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "Oh you! You are so annoying",
+		"attacked":     "Hello? Do you know who our protector is?",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [  56, 255, 112 ],
+
+		"uniques" : [
+			"Start bias [Coast]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Millachimin" ]
+	},
+
+	{
+		"name": "Piscator Harbor",
+		"adjective": [ "Piscator" ],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "To war we go!",
+		"attacked":     "Oh you! How dare you attack our sovereignty?",
+		"defeated":     "And the piscator people are slaughtered yet again...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [  56, 255, 112 ],
+
+		"uniques" : [
+			"Start bias [Coast]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Piscator Harbor" ]
+	},
+
+	{
+		"name": "Plutarch",
+		"adjective": [ "Plutarquian" ],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "Your ideals are lacking, let us teach you better ones!",
+		"attacked":     "No offense taken, we would have done the same in your place.",
+		"defeated":     "And yet again, the victorious writes history...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [  56, 255, 112 ],
+
+		"uniques" : [
+			"Start bias [Coast]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Plutarch" ]
+	},
+
+	{
+		"name": "Setsuka",
+		"adjective": [ "Setsukasu" ],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "A new tax upon your merchant ships - their lives!",
+		"attacked":     "Bold of you to attack an portuary city.",
+		"defeated":     "Well, we are defeated - our ships are yours to use.",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [  56, 255, 112 ],
+
+		"uniques" : [
+			"Start bias [Coast]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Setsuka" ]
+	},
+
+	{
+		"name": "Stormarving",
+		"adjective": [ "Stormer" ],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "Haha! Your villages are ripe for pillaging!",
+		"attacked":     "You won't take our slaves away - either pay us or kill us!",
+		"defeated":     "On hindsight, we weren't the brighest on the market.",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [  56, 255, 112 ],
+
+		"uniques" : [
+			"Start bias [Coast]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Stormarving" ]
+	},
+
+	{
+		"name": "Yguacu",
+		"adjective": [ "Yguacuracu" ],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice, you compromise our peace, so peace we shall not give you!",
+		"attacked":     "Oh you! How dare you attack our sovereignty?",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [  56, 255, 112 ],
+
+		"uniques" : [
+			"Start bias [Coast]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Yguacu" ]
+	},
+
+	{
+		"name": "Zeevaart",
+		"adjective": [ "Zeevartian" ],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "Nothing personal, but our patron requires our services!",
+		"attacked":     "Wrong choice, buddy.",
+		"defeated":     "Aaaaaand there goes our treasury fleet...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [  56, 255, 112 ],
+
+		"uniques" : [
+			"Start bias [Coast]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Zeevaart" ]
+	},
+
+	// Mercantile
+
+	{
+		"name": "Carolija",
+		"adjective": [ "Carolijian" ],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "Oh dear, what we have? A soul in need of attention!",
+		"attacked":     "And you call yourself civilized, humph!",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 216,   0 ],
+
+		"uniques" : [
+			"Start bias [River]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Carolija" ]
+	},
+
+	{
+		"name": "Heteros",
+		"adjective": [ "Hetero" ],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "Our ships are meant for trade, but your nonsense needs to be stopped!",
+		"attacked":     "You know we are protected, right? The world will loathe your kind.",
+		"defeated":     "And another colony falls to pirates...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 216,   0 ],
+
+		"uniques" : [
+			"Start bias [River]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Heteros" ]
+	},
+
+	{
+		"name": "Horskahala",
+		"adjective": [ "Horskahalaia" ],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice, war it must be!",
+		"attacked":     "Oh you! How dare you attack our sovereignty?",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 216,   0 ],
+
+		"uniques" : [
+			"Start bias [River]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Horskahala" ]
+	},
+
+	{
+		"name": "Itamba",
+		"adjective": [ "Itambense" ],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You dissapoint Lady Forest, begone!",
+		"attacked":     "Why don't you attack someone of your stature?",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 216,   0 ],
+
+		"uniques" : [
+			"Start bias [River]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Itamba" ]
+	},
+
+	{
+		"name": "Khenrikhsvil",
+		"adjective": [ "Khenrikhsvilian" ],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice, war it must be!",
+		"attacked":     "Oh you! How dare you attack our sovereignty?",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 216,   0 ],
+
+		"uniques" : [
+			"Start bias [River]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Khenrikhsvil" ]
+	},
+
+	{
+		"name": "Palgat",
+		"adjective": [ "Palgati" ],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice, war it must be!",
+		"attacked":     "Oh you! How dare you attack our sovereignty?",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 216,   0 ],
+
+		"uniques" : [
+			"Start bias [River]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Palgat" ]
+	},
+
+	{
+		"name": "Rijkemaria",
+		"adjective": [ "Rijkemarian" ],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "Your treasure fleets are lookin' really unprotected, pal, and we like unprotected!",
+		"attacked":     "You don't want our smoke, buddy - your caravans certainly don't.",
+		"defeated":     "Alright, altright, you win, boo! You are a REALLY boring person to work with...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 216,   0 ],
+
+		"uniques" : [
+			"Start bias [River]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Rijkemaria" ]
+	},
+
+	{
+		"name": "Shimokori",
+		"adjective": [ "Shimokorian" ],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "To arms! For glory!",
+		"attacked":     "Honorless! You think us to be mere defenseless merchants? You are sorely mistaken!",
+		"defeated":     "You have defeated us, you have our swords... against our will...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 216,   0 ],
+
+		"uniques" : [
+			"Start bias [River]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Shimokori" ]
+	},
+
+	{
+		"name": "Silverman",
+		"adjective": [ "Silvermen" ],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "*sigh* ... we... declare... uh... Oh you probably got it.",
+		"attacked":     "Well lads, its about time we do our speciallity - solve our problems by throwing money at it!",
+		"defeated":     "And this is why we rather let the money do the talking...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 216,   0 ],
+
+		"uniques" : [
+			"Start bias [River]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Silverman" ]
+	},
+
+	{
+		"name": "Specerijenland",
+		"adjective": [ "Specerite" ],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "No offense, we doin' it cause boss telling us to do so.",
+		"attacked":     "Oh please no! We don't want to pay our mercenaries...",
+		"defeated":     "Aaaaaand there goes our treasure fleet. F... Flip.",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 216,   0 ],
+
+		"uniques" : [
+			"Start bias [River]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Specerijenland" ]
+	},
+
+	// Militaristic
+
+	{
+		"name": "Akimitsu",
+		"adjective": [ "Akimitsunian" ],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You are our enemy! Our battle shall be glorious!",
+		"attacked":     "I can't tell if you are corageous or insane by bringing the fight to us. To arms!",
+		"defeated":     "You fight honorably, for now on, our swords are yours for the use!",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255,   0,   0 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Akimitsu" ]
+	},
+
+	{
+		"name": "Autonomon",
+		"adjective": [ "Autonomoic" ],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Your head is demanded by our patrons, ready the silver platter!",
+		"attacked":     "Finally! A reason to go to war!",
+		"defeated":     "N-no! But, but the war! The war can't be over!",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255,   0,   0 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Autonomon" ]
+	},
+
+	{
+		"name": "Choll",
+		"adjective": [ "Chollian" ],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Look at all these weapons! And there were made just for you...r throat!",
+		"attacked":     "Someone feels like being target pratice, ha!",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255,   0,   0 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Choll" ]
+	},
+
+	{
+		"name": "Hiroimone",
+		"adjective": [ "Hiroimonian" ],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "We pray that you are an admirable foe, for our people hungers for war!",
+		"attacked":     "The Hiroimone clan appreciates the initiative, we look foward to your tactics.",
+		"defeated":     "Oh, what a disgrace, me, a Hiroimone, defeated...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255,   0,   0 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Hiroimone" ]
+	},
+
+	{
+		"name": "Kenjayama",
+		"adjective": [ "Kenjayamanian" ],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "It's War! Burn everthing, don't let a single house stand!",
+		"attacked":     "How dare you? We are the ones who declare the war!",
+		"defeated":     "And the thrilling hunt ends...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255,   0,   0 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Kenjayama" ]
+	},
+
+	{
+		"name": "Mokuzai",
+		"adjective": [ "Mokuzaiku" ],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You stand in our way, move out!",
+		"attacked":     "So the foreingner has a death wish...",
+		"defeated":     "Our pragmatism could only get us so far...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255,   0,   0 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Mokuzai" ]
+	},
+
+	{
+		"name": "Narvik",
+		"adjective": [ "Narvikian" ],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Today, I will either be court martialed or decorated, fire!",
+		"attacked":     "What bring you this this humble fortress, kind invader?",
+		"defeated":     "Next time we'll be even higher on the mountains... bah!",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255,   0,   0 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Narvik" ]
+	},
+
+	{
+		"name": "Polemicas",
+		"adjective": [ "Polemaic" ],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Lower your marissas men, we march to war!",
+		"attacked":     "Aha, it takes guts to declare war against the Polemaic people!",
+		"defeated":     "Defeated? How? N-no! Please spare us!",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255,   0,   0 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Polemicas" ]
+	},
+
+	{
+		"name": "Ribe",
+		"adjective": [ "Riberian" ],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "War, war, war! Burn every single village to the ground!",
+		"attacked":     "... So that's how the other side feels?",
+		"defeated":     "... Yeah this sucks actually.",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255,   0,   0 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Ribe" ]
+	},
+
+	{
+		"name": "Vojnapoda",
+		"adjective": [ "Vojnapodec" ],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "To war we go!",
+		"attacked":     "Oh you! How dare you attack our sovereignty?",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255,   0,   0 ],
+
+		"uniques" : [
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Vojnapoda" ]
+	},
+
+	// Religious
+
+	{
+		"name": "Aijo",
+		"adjective": [ "Aijokai" ],
+		"cityStateType": "Religious",
+
+		"declaringWar": "The spirits! The spirits have told us of what you have done!",
+		"attacked":     "You! You dare trouble the rest of the lost?!",
+		"defeated":     "At last, peace is forcefully joined in these red soaked waters...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 255, 255 ],
+
+		"uniques" : [
+			"Start bias [Mountain]",
+			"Start bias [Desert]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Aijo" ]
+	},
+
+	{
+		"name": "Asahi",
+		"adjective": [ "Asahikai" ],
+		"cityStateType": "Religious",
+
+		"declaringWar": "For heavens you have maddened, and for them we'll pay back. Your recklessness will be ended, prepare for our attack!",
+		"attacked":     "A ruler evil, only thinks of war. With that brute of a manner, you won't go very far.",
+		"defeated":     "And so, the end comes to a tale, where white figures, with red, lay pale...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 255, 255 ],
+
+		"uniques" : [
+			"Start bias [Mountain]",
+			"Start bias [Desert]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Asahi" ]
+	},
+
+	{
+		"name": "Grabputa",
+		"adjective": [ "Grabutanious" ],
+		"cityStateType": "Religious",
+
+		"declaringWar": "On the orders of God, your end shall be brought upon you!",
+		"attacked":     "If God is by us, who will be against us?!",
+		"defeated":     "This cannot be? Why we? What sins we haven't attoned?",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 255, 255 ],
+
+		"uniques" : [
+			"Start bias [Mountain]",
+			"Start bias [Desert]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Grabputa" ]
+	},
+
+	{
+		"name": "Gudsloft",
+		"adjective": [ "Gudsloftian" ],
+		"cityStateType": "Religious",
+
+		"declaringWar": "You leave us no choice! To war we go!",
+		"attacked":     "Pagan, the lots of you! You dare disturb the house of God?",
+		"defeated":     "And the sacred home is defillied yet again...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 255, 255 ],
+
+		"uniques" : [
+			"Start bias [Mountain]",
+			"Start bias [Desert]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Gudsloft" ]
+	},
+
+	{
+		"name": "Heinojey",
+		"adjective": [ "Heinojeilian" ],
+		"cityStateType": "Religious",
+
+		"declaringWar": "For denying light its blessings, you shall be put to trial on the battlefield!",
+		"attacked":     "You are not the first to invade us, and you will not be the last that we repel!",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 255, 255 ],
+
+		"uniques" : [
+			"Start bias [Mountain]",
+			"Start bias [Desert]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Heinojey" ]
+	},
+
+	{
+		"name": "Nensonata",
+		"adjective": [ "Nensonataka" ],
+		"cityStateType": "Religious",
+
+		"declaringWar": "Our grief is disturbed, and you shall answer for it!",
+		"attacked":     "Leave us be! Leave us be! Leave us be!!!",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 255, 255 ],
+
+		"uniques" : [
+			"Start bias [Mountain]",
+			"Start bias [Desert]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Nensonata" ]
+	},
+
+	{
+		"name": "Pamelas",
+		"adjective": [ "Pamelian" ],
+		"cityStateType": "Religious",
+
+		"declaringWar": "We will raise a monument about you... and how you were defeated by us!",
+		"attacked":     "You ruin your name in the eyes of history again, and again, and again, and again!",
+		"defeated":     "We will be gone, but you'll be the one left to rot in this world...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 255, 255 ],
+
+		"uniques" : [
+			"Start bias [Mountain]",
+			"Start bias [Desert]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Pamelas" ]
+	},
+
+	{
+		"name": "St. Elysia",
+		"adjective": [ "Saint-Elysian" ],
+		"cityStateType": "Religious",
+
+		"declaringWar": "Our pegasus fly to give your army doom!",
+		"attacked":     "You dare attack the resting place of Saint Elysia, patron of the Pegasus Knights? You are vile beyond belief!",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 255, 255 ],
+
+		"uniques" : [
+			"Start bias [Mountain]",
+			"Start bias [Desert]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "St. Elysia" ]
+	},
+
+	{
+		"name": "Tesapeharape",
+		"adjective": [ "Tesapeharapian" ],
+		"cityStateType": "Religious",
+
+		"declaringWar": "You lave us no choice! To war we go!",
+		"attacked":     "You choose war over peace because of weakness, not strenght, we will teach you why that is the truth!",
+		"defeated":     "No, this cannot be! You monster...",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 255, 255 ],
+
+		"uniques" : [
+			"Start bias [Mountain]",
+			"Start bias [Desert]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Tesapeharape" ]
+	},
+
+	{
+		"name": "Troenstopp",
+		"adjective": [ "Troenstopian" ],
+		"cityStateType": "Religious",
+
+		"declaringWar": "March, men! To war we go!",
+		"attacked":     "Bold and vile are two virtues that create one evil...",
+		"defeated":     "And then the holy city was seized, the end.",
+
+		"outerColor": [   0,   0,   0 ],
+		"innerColor": [ 255, 255, 255 ],
+
+		"uniques" : [
+			"Start bias [Mountain]",
+			"Start bias [Desert]",
+			"[+100]% [Gold] [in all cities] <hidden from users>",
+			"[+100]% [Production] [in all cities] <hidden from users>"
+		],
+
+		"cities": [ "Troenstopp" ]
+	},
+
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [   0,   0,   0],
+        "innerColor": [ 185,  12,  12],
+		"uniques": ["Can only heal by pillaging", 
+					"Excluded from map editor",
+					"[Water] units gain the [Unable to pillage tiles] promotion"]
+	}
+
+]

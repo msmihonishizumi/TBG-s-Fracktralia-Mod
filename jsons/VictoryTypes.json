@@ -1,0 +1,60 @@
+[
+    {
+        "name": "Scientific",
+        "victoryScreenHeader": "Complete all the spaceship parts to win!",
+        "milestones": [
+            "Build [Apollo Program]", "Add all [spaceship parts] in capital"
+        ],
+        "requiredSpaceshipParts": [
+            "SS Engine", "SS Stasis Chamber", "SS Cockpit", "SS Booster", "SS Booster", "SS Booster"
+        ],
+
+        "victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to a brave new world! Your triumph will be remembered as long as the stars burn in the night sky!",
+
+        "defeatString": "The world around you advanced, but you did not. Your scholars weren't bright enough to keep up with your enemies, and you did not funded enough research, your civilization will be left to rot in this cruel world..."
+    },
+    {
+        "name": "Cultural",
+        "victoryScreenHeader": "Complete 5 policy branches and build the Utopia Project to win!",
+        "milestones": ["Complete [5] Policy branches", "Build [Utopia Project]"],
+
+        "victoryString": "You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
+
+        "defeatString": "The world has been overwhelmed by the culture of your foes, their society advanced to the point of enlightment, and now, your civilization in comparisos looks no more than mere brutes and barbarians..."
+    },
+    {
+        "name": "Domination",
+        "victoryScreenHeader": "Capture all enemy Capitals to win!",
+        "milestones": ["Capture all capitals"],
+
+        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. The fate of your people is uncertain, for what happens next is completly in the hands of your enemies..."
+    },
+    {
+        "name": "Diplomatic",
+        "victoryScreenHeader": "Build the UN and be voted world leader to win!",
+        "milestones": ["Anyone should build [United Nations]", "Win diplomatic vote"],
+
+        "victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
+
+        "defeatString": "While you sat idly or bickering with your neighbours, your foe gained more and more light, attention and praise, the world slowly became united under them, and now their praises will be sung forevermore, while your civilization become yet another footnote in history."
+    },
+	{
+		"name" : "Religious",
+		"victoryScreenHeader" : "Be the major religion to win!",
+		"milestones" : [ "Become the world religion" ],
+
+		"victoryString" : "While some created inventions, and others fought for a cause, you gave the world what it needed the most, the little things that make the mind be at peace, teachings for self-improvement, and something that gave meaning to their lives. The world looks to the heavens above and is grateful for its blessings!",
+
+		"defeatString"  : "Your people lost faith, not in just our truth, but also in your ability to rule. For you had let the pagan minds roam and sow their seeds of doubt. The world looks at this truth and sings in a joyful unison, not knowing of what they have been denied. The heavens look down upon your civilization..."
+	},
+    {
+        "name": "Time",
+        "hiddenInVictoryScreen": true,
+        "milestones": ["Have highest score after max turns"],
+        "victoryString": "Time doesn't waits for everyone, it did not wait for your foes, it did not wait for those who faded away, and it wasn't going to wait for you, but you caught up with it, and even surparsed it, your civilization ever prosperous, withstood the test of time!",
+
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    }
+]

@@ -1,0 +1,972 @@
+[
+  {
+      "name": "Template",
+      // Stats focused personalities
+      "culture":             5,
+      "faith":               5,
+      "food":                5,
+      "gold":                5,
+      "happiness":           5,
+      "production":          5,
+      "science":             5,
+      // Behavour focused personalities
+      "military":            5,
+      "aggressive":          5,
+      "declareWar":          5,
+      "commerce":            5,
+      "diplomacy":           5,
+      "loyal":               5,
+      "expansion":           5,
+      "denounceWillingness": 5,
+
+      "priorities": {
+          "Tradition":   5,
+          "Liberty":     5,
+          "Honor":       5,
+          "Commerce":    5,
+          "Patronage":   5,
+          "Piety":       5,
+          "Rationalism": 5,
+          "Freedom":     5,
+          "Autocracy":   5,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Settler] for AI decisions"			
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+	// The personalties are ordered by their Civs
+  {
+      "name": "Bishop Seebs",
+      // Stats focused personalities
+      "culture":             7,
+      "faith":               8,
+      "food":                6,
+      "gold":                4,
+      "happiness":           2,
+      "production":          7,
+      "science":             7,
+      // Behavour focused personalities
+      "military":            8,
+      "aggressive":          2,
+      "declareWar":          3,
+      "commerce":            1,
+      "diplomacy":           7,
+      "loyal":               1,
+      "expansion":           9,
+      "denounceWillingness": 9,
+
+      "priorities": {
+          "Tradition":  15,
+          "Liberty":     5,
+          "Honor":       5,
+          "Commerce":    5,
+          "Patronage":   5,
+          "Piety":      15,
+          "Rationalism": 5,
+          "Freedom":     5,
+          "Autocracy":  15,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Siege] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Brutus Celes",
+      // Stats focused personalities
+      "culture":             5,
+      "faith":               6,
+      "food":                7,
+      "gold":                7,
+      "happiness":           7,
+      "production":          6,
+      "science":             6,
+      // Behavour focused personalities
+      "military":            8,
+      "aggressive":          5,
+      "declareWar":          4,
+      "commerce":            6,
+      "diplomacy":           7,
+      "loyal":               5,
+      "expansion":           4,
+      "denounceWillingness": 5,
+
+      "priorities": {
+          "Tradition":   5,
+          "Liberty":     5,
+          "Honor":      15,
+          "Commerce":    5,
+          "Patronage":  15,
+          "Piety":       5,
+          "Rationalism": 5,
+          "Freedom":     5,
+          "Autocracy":   5,
+          "Order":      15
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Mounted] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Lord Annei",
+      // Stats focused personalities
+      "culture":             5,
+      "faith":               4,
+      "food":                9,
+      "gold":                8,
+      "happiness":           6,
+      "production":          8,
+      "science":             5,
+      // Behavour focused personalities
+      "military":            6,
+      "aggressive":          3,
+      "declareWar":          3,
+      "commerce":            9,
+      "diplomacy":           9,
+      "loyal":               3,
+      "expansion":           9,
+      "denounceWillingness": 2,
+
+      "priorities": {
+          "Tradition":   5,
+          "Liberty":    15,
+          "Honor":       5,
+          "Commerce":   15,
+          "Patronage":   5,
+          "Piety":       5,
+          "Rationalism": 5,
+          "Freedom":    15,
+          "Autocracy":   5,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Siege] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Sir Percival",
+      // Stats focused personalities
+      "culture":             7,
+      "faith":               6,
+      "food":                6,
+      "gold":                4,
+      "happiness":           5,
+      "production":          6,
+      "science":             5,
+      // Behavour focused personalities
+      "military":            9,
+      "aggressive":          8,
+      "declareWar":          2,
+      "commerce":            5,
+      "diplomacy":           6,
+      "loyal":               9,
+      "expansion":           6,
+      "denounceWillingness": 9,
+
+      "priorities": {
+          "Tradition":   5,
+          "Liberty":    15,
+          "Honor":       5,
+          "Commerce":    5,
+          "Patronage":  15,
+          "Piety":       5,
+          "Rationalism":15,
+          "Freedom":    15,
+          "Autocracy":   5,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Mounted] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Carmilla da L'Ouest",
+      // Stats focused personalities
+      "culture":             5,
+      "faith":               7,
+      "food":                5,
+      "gold":                4,
+      "happiness":           5,
+      "production":          8,
+      "science":             6,
+      // Behavour focused personalities
+      "military":            7,
+      "aggressive":          9,
+      "declareWar":          6,
+      "commerce":            5,
+      "diplomacy":           5,
+      "loyal":               4,
+      "expansion":           8,
+      "denounceWillingness": 4,
+
+      "priorities": {
+          "Tradition":   5,
+          "Liberty":     5,
+          "Honor":      15,
+          "Commerce":    5,
+          "Patronage":  15,
+          "Piety":       5,
+          "Rationalism": 5,
+          "Freedom":     5,
+          "Autocracy":   5,
+          "Order":      15
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Siege] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Tuva Ihvira",
+      // Stats focused personalities
+      "culture":             7,
+      "faith":               9,
+      "food":                6,
+      "gold":                4,
+      "happiness":           6,
+      "production":          6,
+      "science":             7,
+      // Behavour focused personalities
+      "military":            7,
+      "aggressive":          2,
+      "declareWar":          3,
+      "commerce":            4,
+      "diplomacy":           9,
+      "loyal":               9,
+      "expansion":           6,
+      "denounceWillingness": 9,
+
+      "priorities": {
+          "Tradition":   5,
+          "Liberty":     5,
+          "Honor":      15,
+          "Commerce":   15,
+          "Patronage":  15,
+          "Piety":      15,
+          "Rationalism": 5,
+          "Freedom":     5,
+          "Autocracy":   5,
+          "Order":      15
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Scout] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "King Egemen",
+      // Stats focused personalities
+      "culture":             5,
+      "faith":               5,
+      "food":                5,
+      "gold":                7,
+      "happiness":           9,
+      "production":          6,
+      "science":             5,
+      // Behavour focused personalities
+      "military":            7,
+      "aggressive":          2,
+      "declareWar":          9,
+      "commerce":            9,
+      "diplomacy":           4,
+      "loyal":               4,
+      "expansion":           9,
+      "denounceWillingness": 2,
+
+      "priorities": {
+          "Tradition":   5,
+          "Liberty":    15,
+          "Honor":       5,
+          "Commerce":   15,
+          "Patronage":   5,
+          "Piety":       5,
+          "Rationalism":15,
+          "Freedom":     5,
+          "Autocracy":  15,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Water] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Bjorn Tornstein 'Toothpuller'",
+      // Stats focused personalities
+      "culture":             5,
+      "faith":               2,
+      "food":                5,
+      "gold":                9,
+      "happiness":           6,
+      "production":          7,
+      "science":             5,
+      // Behavour focused personalities
+      "military":            9,
+      "aggressive":          7,
+      "declareWar":          9,
+      "commerce":            1,
+      "diplomacy":           2,
+      "loyal":               1,
+      "expansion":           9,
+      "denounceWillingness": 9,
+
+      "priorities": {
+          "Tradition":   5,
+          "Liberty":     5,
+          "Honor":      15,
+          "Commerce":   15,
+          "Patronage":   0,
+          "Piety":       5,
+          "Rationalism":15,
+          "Freedom":     5,
+          "Autocracy":  15,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Siege] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Sakura Hoshiko",
+      // Stats focused personalities
+      "culture":             7,
+      "faith":               4,
+      "food":                5,
+      "gold":                9,
+      "happiness":           4,
+      "production":          5,
+      "science":             4,
+      // Behavour focused personalities
+      "military":            7,
+      "aggressive":          7,
+      "declareWar":          3,
+      "commerce":            4,
+      "diplomacy":           7,
+      "loyal":               6,
+      "expansion":           6,
+      "denounceWillingness": 6,
+
+      "priorities": {
+          "Tradition":   5,
+          "Liberty":     5,
+          "Honor":      15,
+          "Commerce":    5,
+          "Patronage":  15,
+          "Piety":      15,
+          "Rationalism": 5,
+          "Freedom":    15,
+          "Autocracy":   5,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Sword] for AI decisions",
+			"[+100]% weight to [Water] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Bjorn Regina the Angry",
+      // Stats focused personalities
+      "culture":             4,
+      "faith":               3,
+      "food":                6,
+      "gold":                6,
+      "happiness":           7,
+      "production":          4,
+      "science":             9,
+      // Behavour focused personalities
+      "military":            7,
+      "aggressive":          9,
+      "declareWar":          9,
+      "commerce":            4,
+      "diplomacy":           6,
+      "loyal":               2,
+      "expansion":           7,
+      "denounceWillingness": 2,
+
+      "priorities": {
+          "Tradition":  15,
+          "Liberty":     5,
+          "Honor":      15,
+          "Commerce":   15,
+          "Patronage":   5,
+          "Piety":      15,
+          "Rationalism": 5,
+          "Freedom":     5,
+          "Autocracy":   5,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Sword] for AI decisions",
+			"[+100]% weight to [Water] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Lord Marcellus",
+      // Stats focused personalities
+      "culture":             6,
+      "faith":               7,
+      "food":                5,
+      "gold":                6,
+      "happiness":           9,
+      "production":          7,
+      "science":             7,
+      // Behavour focused personalities
+      "military":            7,
+      "aggressive":          5,
+      "declareWar":          5,
+      "commerce":            6,
+      "diplomacy":           7,
+      "loyal":               6,
+      "expansion":           7,
+      "denounceWillingness": 9,
+
+      "priorities": {
+          "Tradition":   5,
+          "Liberty":    15,
+          "Honor":       5,
+          "Commerce":    5,
+          "Patronage":  15,
+          "Piety":       5,
+          "Rationalism":15,
+          "Freedom":    15,
+          "Autocracy":   5,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Sword] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "King Frederik",
+      // Stats focused personalities
+      "culture":             9,
+      "faith":               3,
+      "food":                5,
+      "gold":                4,
+      "happiness":           5,
+      "production":          6,
+      "science":             9,
+      // Behavour focused personalities
+      "military":            6,
+      "aggressive":          3,
+      "declareWar":          3,
+      "commerce":            6,
+      "diplomacy":           6,
+      "loyal":               9,
+      "expansion":           5,
+      "denounceWillingness": 6,
+
+      "priorities": {
+          "Tradition":  15,
+          "Liberty":     5,
+          "Honor":       5,
+          "Commerce":    5,
+          "Patronage":  15,
+          "Piety":       5,
+          "Rationalism":15,
+          "Freedom":     5,
+          "Autocracy":   5,
+          "Order":      15
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Gunpowder] for AI decisions",
+			"[+100]% weight to [Ranged Water] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Queen Nevekah",
+      // Stats focused personalities
+      "culture":             7,
+      "faith":               5,
+      "food":                9,
+      "gold":                5,
+      "happiness":           9,
+      "production":          6,
+      "science":             7,
+      // Behavour focused personalities
+      "military":            6,
+      "aggressive":          3,
+      "declareWar":          3,
+      "commerce":            9,
+      "diplomacy":           9,
+      "loyal":               9,
+      "expansion":           9,
+      "denounceWillingness": 2,
+
+      "priorities": {
+          "Tradition":   5,
+          "Liberty":    15,
+          "Honor":       5,
+          "Commerce":   15,
+          "Patronage":  15,
+          "Piety":      15,
+          "Rationalism": 5,
+          "Freedom":    15,
+          "Autocracy":   5,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Wonder] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "King Dhabar",
+      // Stats focused personalities
+      "culture":             4,
+      "faith":               7,
+      "food":                4,
+      "gold":                5,
+      "happiness":           6,
+      "production":          9,
+      "science":             8,
+      // Behavour focused personalities
+      "military":            9,
+      "aggressive":          1,
+      "declareWar":          6,
+      "commerce":            4,
+      "diplomacy":           4,
+      "loyal":               4,
+      "expansion":           3,
+      "denounceWillingness": 9,
+
+      "priorities": {
+          "Tradition":  15,
+          "Liberty":    15,
+          "Honor":       5,
+          "Commerce":    5,
+          "Patronage":   5,
+          "Piety":       5,
+          "Rationalism":15,
+          "Freedom":     5,
+          "Autocracy":  15,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Air] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "King Thucydides",
+      // Stats focused personalities
+      "culture":             7,
+      "faith":               7,
+      "food":                6,
+      "gold":                5,
+      "happiness":           5,
+      "production":          5,
+      "science":             7,
+      // Behavour focused personalities
+      "military":            6,
+      "aggressive":          6,
+      "declareWar":          6,
+      "commerce":            4,
+      "diplomacy":           2,
+      "loyal":               2,
+      "expansion":           7,
+      "denounceWillingness": 1,
+
+      "priorities": {
+          "Tradition":  15,
+          "Liberty":     5,
+          "Honor":      15,
+          "Commerce":    5,
+          "Patronage":   5,
+          "Piety":      15,
+          "Rationalism": 5,
+          "Freedom":     5,
+          "Autocracy":   5,
+          "Order":      15
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Water] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "King Arwel",
+      // Stats focused personalities
+      "culture":             2,
+      "faith":               2,
+      "food":                9,
+      "gold":                4,
+      "happiness":           4,
+      "production":          9,
+      "science":             9,
+      // Behavour focused personalities
+      "military":            7,
+      "aggressive":          2,
+      "declareWar":          3,
+      "commerce":            3,
+      "diplomacy":           1,
+      "loyal":               9,
+      "expansion":           4,
+      "denounceWillingness": 9,
+
+      "priorities": {
+          "Tradition":  15,
+          "Liberty":    15,
+          "Honor":       5,
+          "Commerce":    5,
+          "Patronage":   5,
+          "Piety":       5,
+          "Rationalism":15,
+          "Freedom":     5,
+          "Autocracy":  15,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Production] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Bjorn Rubben",
+      // Stats focused personalities
+      "culture":             5,
+      "faith":               5,
+      "food":                6,
+      "gold":                6,
+      "happiness":           9,
+      "production":          7,
+      "science":             6,
+      // Behavour focused personalities
+      "military":            6,
+      "aggressive":          1,
+      "declareWar":          1,
+      "commerce":            8,
+      "diplomacy":          10,
+      "loyal":              10,
+      "expansion":           7,
+      "denounceWillingness": 2,
+
+      "priorities": {
+          "Tradition":   5,
+          "Liberty":    15,
+          "Honor":       5,
+          "Commerce":    5,
+          "Patronage":   5,
+          "Piety":       5,
+          "Rationalism":15,
+          "Freedom":    15,
+          "Autocracy":   5,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Wonder] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Petko the Hunter",
+      // Stats focused personalities
+      "culture":             5,
+      "faith":               5,
+      "food":                7,
+      "gold":                5,
+      "happiness":           5,
+      "production":          7,
+      "science":             6,
+      // Behavour focused personalities
+      "military":            5,
+      "aggressive":          3,
+      "declareWar":          3,
+      "commerce":            4,
+      "diplomacy":           6,
+      "loyal":               5,
+      "expansion":           5,
+      "denounceWillingness": 9,
+
+      "priorities": {
+          "Tradition":  15,
+          "Liberty":    15,
+          "Honor":       5,
+          "Commerce":    5,
+          "Patronage":   5,
+          "Piety":       5,
+          "Rationalism":15,
+          "Freedom":     5,
+          "Autocracy":  15,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Sword] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Jaska the Great",
+      // Stats focused personalities
+      "culture":             5,
+      "faith":               7,
+      "food":                6,
+      "gold":                5,
+      "happiness":           8,
+      "production":          6,
+      "science":             5,
+      // Behavour focused personalities
+      "military":            7,
+      "aggressive":          5,
+      "declareWar":          6,
+      "commerce":            7,
+      "diplomacy":           6,
+      "loyal":               1,
+      "expansion":           4,
+      "denounceWillingness": 4,
+
+      "priorities": {
+          "Tradition":  15,
+          "Liberty":     5,
+          "Honor":       5,
+          "Commerce":    5,
+          "Patronage":  15,
+          "Piety":       5,
+          "Rationalism":15,
+          "Freedom":     5,
+          "Autocracy":   5,
+          "Order":      15
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Ranged] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Bishop Dumitru",
+      // Stats focused personalities
+      "culture":             8,
+      "faith":               1,
+      "food":                8,
+      "gold":                5,
+      "happiness":           4,
+      "production":          8,
+      "science":             4,
+      // Behavour focused personalities
+      "military":           10,
+      "aggressive":          2,
+      "declareWar":          2,
+      "commerce":            1,
+      "diplomacy":           4,
+      "loyal":              10,
+      "expansion":           6,
+      "denounceWillingness": 1,
+
+      "priorities": {
+          "Tradition":  15,
+          "Liberty":     5,
+          "Honor":       5,
+          "Commerce":   15,
+          "Patronage":   5,
+          "Piety":      15,
+          "Rationalism": 5,
+          "Freedom":     5,
+          "Autocracy":  15,
+          "Order":       5
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Siege] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  },
+
+  {
+      "name": "Vincent 'Fatherpike'",
+      // Stats focused personalities
+      "culture":             5,
+      "faith":               9,
+      "food":                4,
+      "gold":                4,
+      "happiness":           4,
+      "production":          9,
+      "science":             4,
+      // Behavour focused personalities
+      "military":            9,
+      "aggressive":          2,
+      "declareWar":          2,
+      "commerce":            0,
+      "diplomacy":           0,
+      "loyal":               0,
+      "expansion":           9,
+      "denounceWillingness": 9,
+
+      "priorities": {
+          "Tradition":  15,
+          "Liberty":     5,
+          "Honor":       5,
+          "Commerce":    5,
+          "Patronage":  15,
+          "Piety":       5,
+          "Rationalism":15,
+          "Freedom":     5,
+          "Autocracy":   5,
+          "Order":      15
+      },
+	  "uniques" : [  
+			"[+100]% weight to [Unique] for AI decisions",
+			"[-25]% weight to [{Land} {Ranged}] for AI decisions",
+			"[-99]% weight to [Inquisitor] for AI decisions",
+			// This person specific
+			"[+100]% weight to [Sword] for AI decisions"
+		],		// Yeah remember that AI biases towards units/buildings is a thing now so... happy making
+      "civilopediaText": [
+          {"text": "The Most Lorem that Ipsum"}
+      ]	
+  }
+]

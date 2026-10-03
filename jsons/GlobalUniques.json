@@ -1,0 +1,52 @@
+{
+    "name": "Global Uniques",
+    "uniques": [
+        "Requires establishing embassies to conduct advanced diplomacy",
+        "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
+        "Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
+        "[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
+        "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
+        "Cannot build [Settler] units <when below [-10] [Happiness]>",
+        "Rebel units may spawn <when below [-20] [Happiness]>",
+        "[-1] Sight <for [Embarked] units>",
+        "[+1] Movement <for [Embarked] units>",
+
+		// Mod Specific Global Uniques
+		"[-20]% Culture cost of adopting new Policies",
+		
+		// Religion Stuff
+		"[-50]% Faith cost of generating Great Prophet equivalents <before founding a religion>",
+		"[-67]% Faith cost of generating Great Prophet equivalents <after founding a religion> <before enhancing a religion>",
+		"May not generate great prophet equivalents naturally <after enhancing a religion>",
+		"May buy [Missionary] units for [200] [Faith] [in cities following our religion] at an increasing price ([10]) <after founding a religion>",
+		"May buy [Inquisitor] units for [200] [Faith] [in cities following our religion] at an increasing price ([10]) <after founding a religion>",
+
+		"Religion naturally spreads to cities [-4] tiles away",
+		"Religion naturally spreads to cities [+1] tiles away <for every [Era number]>",
+
+        // TODO: Implement the uniques below
+        // "[+20]% [Culture] [in all cities] <during a Golden Age>",
+        // "[+20]% [Production] [in all cities] <during a Golden Age>",
+        // "[+10]% growth [in all cities] <during We Love The King Day>",
+        // "[-25]% [Science] [in puppeted cities]",
+        // "[-25]% [Culture] [in puppeted cities]"
+
+        // "[+20]% [Production] [in cities connected via railroad]"
+        // something something unit supply
+
+		// Workarounds
+         "[+25]% Strength for cities <in cities with a [Squared Fort]> <vs [Mounted] units> <hidden from users>",
+         "[+25]% Strength for cities <in cities with a [Squared Fort]> <vs [Air] units> <hidden from users>",
+
+         "[+75]% Strength for cities <in cities with a [Bodec Trap]> <vs [Mounted] units> <hidden from users>",
+         "[+75]% Strength for cities <in cities with a [Bodec Trap]> <vs [Armored] units> <hidden from users>"
+    ],
+	"unitUniques":	[
+			// Chamanhu's Uniques
+			"[+5]% [Food] [in all cities] <for [2] turns> <upon defeating a [Military] unit> <for [Chamanhu] Civilizations> <hidden from users> <Suppress warning [*which is not an acceptable modifier for this unique*]>",
+			"[+5]% [Production] [in all cities] <for [2] turns> <upon defeating a [Military] unit> <for [Chamanhu] Civilizations> <hidden from users> <Suppress warning [*which is not an acceptable modifier for this unique*]>"
+	],
+    "civilopediaText": [
+        {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
+    ]
+}
